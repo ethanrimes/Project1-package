@@ -404,8 +404,9 @@ void print_tcp_session_data(FILE* fd_out, struct tcp_session_data* session) {
     fprintf(fd_out, "%d\t%d\t", session->src_port, session->dst_port);
     fprintf(fd_out, "%d\t%d\t%d\t", session->num_packets_sent, session->session_through_bytes, session->session_goodput_bytes);
     fprintf(fd_out, "%.4f\t", rounded_sessionDuration);
-    fprintf(fd_out, "%.3f\t", rounded_throughput);
-    fprintf(fd_out, "%.3f\t\n", rounded_goodput);
+    fprintf(fd_out, "%f\t", rounded_throughput);
+    fprintf(fd_out, "%f\t\n", rounded_goodput);
+    //fprintf(fd_out, "%f\t%f\n", session->session_start_time, session->session_end_time);
 }
 
 
@@ -427,20 +428,32 @@ void tcp_analysis(char *in_filename, char *out_filename)
     char src_ip_str[INET6_ADDRSTRLEN];
     char dst_ip_str[INET6_ADDRSTRLEN];
 
+    int TCP_session_count = 0;
     uint8_t next_header_protocol;
     int session_initiated = 0;
     int pointer_advancement = 0;
+    int num_packets_sent = 0;
+    int first_packet = 0;
+    double time_zero;
     uint32_t session_through_bytes =0;
     uint32_t session_goodput_bytes =0;
+    int frame_number = 0;
+
+    char* tcp_server;
+    char* tcp_client;
 
     struct tcp_session_data session;
 
     // valid sender IPs
-    const char *allowed_ips[] = {
+    const char *allowed_src_ips[] = {
         "10.168.207.106",
         "10.168.207.107",
         "10.168.207.108",
         "10.168.207.109"
+    };
+
+    const char *allowed_dst_ips[] = {
+        "192.11.68.196",
     };
 
     FILE *fd_in, *fd_out;
@@ -480,9 +493,15 @@ void tcp_analysis(char *in_filename, char *out_filename)
                 break;
             }
         }
+        if (first_packet == 0) {
+            time_zero = pkt_header.time_usec;
+            first_packet = 1;
+        }
+        frame_number += 1;
 
         // extract capture_length info
         int caplen = pkt_header.caplen;
+        uint16_t total_ip_length = 0;
 
         // extract ethernet header
         struct ethernet_header eheader;
@@ -499,6 +518,8 @@ void tcp_analysis(char *in_filename, char *out_filename)
                 }
                 // Calculate actual IP header length from the version_ihl field (bottom 4 bits)
                 ip_header_length = (ip_header.version_ihl & 0x0F) * 4;
+
+                total_ip_length = ntohs(ip_header.total_length);
 
                 // Check if there are options (i.e., if the actual IP header length is greater than the standard size)
                 if (ip_header_length > sizeof(struct ipv4_header)) {
@@ -522,6 +543,7 @@ void tcp_analysis(char *in_filename, char *out_filename)
                     break;
                 }
                 ip_header_length = sizeof(struct ipv6_header); // fixed header length
+                total_ip_length = ip_header_length + ntohs(ipv6_hdr.payload_length);
 
                 // Convert the source and destination IPv6 addresses to string format
                 inet_ntop(AF_INET6, ipv6_hdr.source_ip, src_ip_str, sizeof(src_ip_str));  // IPv6 source address
@@ -534,11 +556,14 @@ void tcp_analysis(char *in_filename, char *out_filename)
             unsigned int ip_valid = 0;
             for (int i = 0; i < 4; i++) {
                 // Compare the string representation of the source IP with the allowed IPs
-                if (strcmp(src_ip_str, allowed_ips[i]) == 0) {
+                if (strcmp(src_ip_str, allowed_src_ips[i]) == 0) {
                     ip_valid = 1;
+                    num_packets_sent += 1;
                     break; // IP found, no need to continue the loop
                 }
             }
+
+            ip_valid &= !strcmp(dst_ip_str, allowed_dst_ips[0]);
 
             if (next_header_protocol == TCP_TYPE_NUM && ip_valid) {
                 struct tcp_header tcpheader;
@@ -564,6 +589,7 @@ void tcp_analysis(char *in_filename, char *out_filename)
                 pointer_advancement += tcp_header_length;
                 unsigned int total_header_length = ethernet_header_length + ip_header_length + tcp_header_length;
                 unsigned int payload_length = caplen - total_header_length;
+                unsigned int length = pkt_header.caplen;
 
                 // On SYN flag, start session
                 if ((tcpheader.flags & TCP_FLAG_SYN) && !session_initiated) {
@@ -578,9 +604,12 @@ void tcp_analysis(char *in_filename, char *out_filename)
 
                 if (session_initiated) {
                     // Print TCP session
-                    session.num_packets_sent++;
-                    session.session_through_bytes += (caplen - ethernet_header_length);
-                    session.session_goodput_bytes += payload_length;
+                    if (strcmp(session.dst_ip, dst_ip_str) == 0 && strcmp(session.src_ip, src_ip_str) == 0) {
+                        session.num_packets_sent++;
+                        session.session_through_bytes += total_ip_length;
+                        session.session_goodput_bytes += payload_length;
+                    }
+
 
                     // On FIN flag, end session and print the cached data
                     if (tcpheader.flags & TCP_FLAG_FIN) {
