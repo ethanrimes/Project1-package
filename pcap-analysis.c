@@ -396,17 +396,16 @@ void print_tcp_session_data(FILE* fd_out, struct tcp_session_data* session) {
     // Round the sessionDuration and other values to 4 significant figures (example)
     double sessionDuration = (session->session_end_time - session->session_start_time);
     double rounded_sessionDuration = round_to_sig_figs(sessionDuration, 4);
-    double rounded_throughput = round_to_sig_figs(session->session_through_bytes / sessionDuration, 8);
-    double rounded_goodput = round_to_sig_figs(session->session_goodput_bytes / sessionDuration, 8);
+    double rounded_throughput = round_to_sig_figs(session->session_through_bytes * 8 / sessionDuration, 10);
+    double rounded_goodput = round_to_sig_figs(session->session_goodput_bytes * 8 / sessionDuration, 10);
     
     fprintf(fd_out, "%d\t", session->session_count);
     fprintf(fd_out, "%s\t%s\t", session->src_ip, session->dst_ip);
     fprintf(fd_out, "%d\t%d\t", session->src_port, session->dst_port);
     fprintf(fd_out, "%d\t%d\t%d\t", session->num_packets_sent, session->session_through_bytes, session->session_goodput_bytes);
     fprintf(fd_out, "%.4f\t", rounded_sessionDuration);
-    fprintf(fd_out, "%f\t", rounded_throughput);
-    fprintf(fd_out, "%f\t\n", rounded_goodput);
-    //fprintf(fd_out, "%f\t%f\n", session->session_start_time, session->session_end_time);
+    fprintf(fd_out, "%.3f\t", rounded_throughput);
+    fprintf(fd_out, "%.3f\t\n", rounded_goodput);
 }
 
 
@@ -428,16 +427,11 @@ void tcp_analysis(char *in_filename, char *out_filename)
     char src_ip_str[INET6_ADDRSTRLEN];
     char dst_ip_str[INET6_ADDRSTRLEN];
 
-    int TCP_session_count = 0;
     uint8_t next_header_protocol;
     int session_initiated = 0;
     int pointer_advancement = 0;
-    int num_packets_sent = 0;
-    int first_packet = 0;
-    double time_zero;
     uint32_t session_through_bytes =0;
     uint32_t session_goodput_bytes =0;
-    int frame_number = 0;
 
     struct tcp_session_data session;
 
@@ -486,11 +480,6 @@ void tcp_analysis(char *in_filename, char *out_filename)
                 break;
             }
         }
-        if (first_packet == 0) {
-            time_zero = pkt_header.time_usec;
-            first_packet = 1;
-        }
-        frame_number += 1;
 
         // extract capture_length info
         int caplen = pkt_header.caplen;
@@ -547,7 +536,6 @@ void tcp_analysis(char *in_filename, char *out_filename)
                 // Compare the string representation of the source IP with the allowed IPs
                 if (strcmp(src_ip_str, allowed_ips[i]) == 0) {
                     ip_valid = 1;
-                    num_packets_sent += 1;
                     break; // IP found, no need to continue the loop
                 }
             }
@@ -591,7 +579,7 @@ void tcp_analysis(char *in_filename, char *out_filename)
                 if (session_initiated) {
                     // Print TCP session
                     session.num_packets_sent++;
-                    session.session_through_bytes += caplen;
+                    session.session_through_bytes += (caplen - ethernet_header_length);
                     session.session_goodput_bytes += payload_length;
 
                     // On FIN flag, end session and print the cached data
