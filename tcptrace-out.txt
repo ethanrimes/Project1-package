@@ -1,0 +1,2787 @@
+1 arg remaining, starting with 'lengthFixed.pcap'
+Ostermann's tcptrace -- version 6.6.7 -- Thu Nov  4, 2004
+
+37398 packets seen, 36927 TCP packets traced
+elapsed wallclock time: 0:00:00.216165, 173006 pkts/sec analyzed
+trace file elapsed time: 0:03:41.677288
+TCP connection info:
+35 TCP connections traced:
+TCP connection 1:
+	host a:        10.168.207.106:445
+	host b:        192.11.68.196:33168
+	complete conn: no	(SYNs: 0)  (FINs: 0)
+	first packet:  Thu Feb  7 10:46:15.222115 2013
+	last packet:   Thu Feb  7 10:48:15.292741 2013
+	elapsed time:  0:02:00.070626
+	total packets: 4
+	filename:      lengthFixed.pcap
+   a->b:			      b->a:
+     total packets:             2           total packets:             2      
+     ack pkts sent:             2           ack pkts sent:             2      
+     pure acks sent:            0           pure acks sent:            2      
+     sack pkts sent:            0           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         0           max sack blks/ack:         0      
+     unique bytes sent:         1           unique bytes sent:         0      
+     actual data pkts:          2           actual data pkts:          0      
+     actual data bytes:         2           actual data bytes:         0      
+     rexmt data pkts:           1           rexmt data pkts:           0      
+     rexmt data bytes:          1           rexmt data bytes:          0      
+     zwnd probe pkts:           0           zwnd probe pkts:           0      
+     zwnd probe bytes:          0           zwnd probe bytes:          0      
+     outoforder pkts:           0           outoforder pkts:           0      
+     pushed data pkts:          0           pushed data pkts:          0      
+     SYN/FIN pkts sent:       0/0           SYN/FIN pkts sent:       0/0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:             0 bytes     mss requested:             0 bytes
+     max segm size:             1 bytes     max segm size:             0 bytes
+     min segm size:             1 bytes     min segm size:             0 bytes
+     avg segm size:             0 bytes     avg segm size:             0 bytes
+     max win adv:            2533 bytes     max win adv:             667 bytes
+     min win adv:            2533 bytes     min win adv:             667 bytes
+     zero win adv:              0 times     zero win adv:              0 times
+     avg win adv:            2533 bytes     avg win adv:             667 bytes
+     max owin:                  1 bytes     max owin:                  1 bytes
+     min non-zero owin:         1 bytes     min non-zero owin:         1 bytes
+     avg owin:                  1 bytes     avg owin:                  1 bytes
+     wavg owin:                 0 bytes     wavg owin:                 0 bytes
+     initial window:            1 bytes     initial window:            0 bytes
+     initial window:            1 pkts      initial window:            0 pkts 
+     ttl stream length:        NA           ttl stream length:        NA      
+     missed data:              NA           missed data:              NA      
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:      120.040 secs      data xmit time:        0.000 secs 
+     idletime max:       120039.6 ms        idletime max:       120039.5 ms   
+     throughput:                0 Bps       throughput:                0 Bps  
+
+     RTT samples:               1           RTT samples:               0      
+     RTT min:                31.1 ms        RTT min:                 0.0 ms   
+     RTT max:                31.1 ms        RTT max:                 0.0 ms   
+     RTT avg:                31.1 ms        RTT avg:                 0.0 ms   
+     RTT stdev:               0.0 ms        RTT stdev:               0.0 ms   
+
+     RTT from 3WHS:           0.0 ms        RTT from 3WHS:           0.0 ms   
+
+     RTT full_sz smpls:         1           RTT full_sz smpls:         0      
+     RTT full_sz min:        31.1 ms        RTT full_sz min:         0.0 ms   
+     RTT full_sz max:        31.1 ms        RTT full_sz max:         0.0 ms   
+     RTT full_sz avg:        31.1 ms        RTT full_sz avg:         0.0 ms   
+     RTT full_sz stdev:       0.0 ms        RTT full_sz stdev:       0.0 ms   
+
+     post-loss acks:            0           post-loss acks:            0      
+     segs cum acked:            0           segs cum acked:            0      
+     duplicate acks:            1           duplicate acks:            0      
+     triple dupacks:            0           triple dupacks:            0      
+     max # retrans:             0           max # retrans:             0      
+     min retr time:           0.0 ms        min retr time:           0.0 ms   
+     max retr time:           0.0 ms        max retr time:           0.0 ms   
+     avg retr time:           0.0 ms        avg retr time:           0.0 ms   
+     sdv retr time:           0.0 ms        sdv retr time:           0.0 ms   
+================================
+TCP connection 2:
+	host c:        192.11.68.196:38294
+	host d:        10.168.207.106:80
+	complete conn: yes
+	first packet:  Thu Feb  7 10:46:55.708671 2013
+	last packet:   Thu Feb  7 10:46:56.064325 2013
+	elapsed time:  0:00:00.355654
+	total packets: 117
+	filename:      lengthFixed.pcap
+   c->d:			      d->c:
+     total packets:            42           total packets:            75      
+     ack pkts sent:            41           ack pkts sent:            75      
+     pure acks sent:           39           pure acks sent:            0      
+     sack pkts sent:            0           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         0           max sack blks/ack:         0      
+     unique bytes sent:       132           unique bytes sent:    101262      
+     actual data pkts:          1           actual data pkts:         73      
+     actual data bytes:       132           actual data bytes:    101262      
+     rexmt data pkts:           0           rexmt data pkts:           0      
+     rexmt data bytes:          0           rexmt data bytes:          0      
+     zwnd probe pkts:           0           zwnd probe pkts:           0      
+     zwnd probe bytes:          0           zwnd probe bytes:          0      
+     outoforder pkts:           0           outoforder pkts:           0      
+     pushed data pkts:          1           pushed data pkts:          2      
+     SYN/FIN pkts sent:       1/1           SYN/FIN pkts sent:       1/1      
+     req 1323 ws/ts:          Y/N           req 1323 ws/ts:          Y/N      
+     adv wind scale:            7           adv wind scale:            8      
+     req sack:                  Y           req sack:                  Y      
+     sacks sent:                0           sacks sent:                0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:          1388 bytes     mss requested:          1460 bytes
+     max segm size:           132 bytes     max segm size:          1388 bytes
+     min segm size:           132 bytes     min segm size:          1326 bytes
+     avg segm size:           131 bytes     avg segm size:          1387 bytes
+     max win adv:          205696 bytes     max win adv:           66560 bytes
+     min win adv:           74368 bytes     min win adv:           66560 bytes
+     zero win adv:              0 times     zero win adv:              0 times
+     avg win adv:          154118 bytes     avg win adv:           66560 bytes
+     max owin:                133 bytes     max owin:              43029 bytes
+     min non-zero owin:         1 bytes     min non-zero owin:         1 bytes
+     avg owin:                  4 bytes     avg owin:              14236 bytes
+     wavg owin:                19 bytes     wavg owin:             11103 bytes
+     initial window:          132 bytes     initial window:         2776 bytes
+     initial window:            1 pkts      initial window:            2 pkts 
+     ttl stream length:       132 bytes     ttl stream length:    102650 bytes
+     missed data:               0 bytes     missed data:            1388 bytes
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:        0.000 secs      data xmit time:        0.159 secs 
+     idletime max:           59.7 ms        idletime max:           89.8 ms   
+     throughput:              371 Bps       throughput:           284721 Bps  
+
+     RTT samples:               3           RTT samples:              38      
+     RTT min:                 0.3 ms        RTT min:                30.9 ms   
+     RTT max:                28.6 ms        RTT max:                31.8 ms   
+     RTT avg:                 9.7 ms        RTT avg:                31.3 ms   
+     RTT stdev:              16.4 ms        RTT stdev:               0.2 ms   
+
+     RTT from 3WHS:           0.3 ms        RTT from 3WHS:          30.9 ms   
+
+     RTT full_sz smpls:         2           RTT full_sz smpls:         2      
+     RTT full_sz min:         0.3 ms        RTT full_sz min:        30.9 ms   
+     RTT full_sz max:         0.3 ms        RTT full_sz max:        30.9 ms   
+     RTT full_sz avg:         0.3 ms        RTT full_sz avg:        30.9 ms   
+     RTT full_sz stdev:       0.0 ms        RTT full_sz stdev:       0.0 ms   
+
+     post-loss acks:            0           post-loss acks:            0      
+     segs cum acked:            0           segs cum acked:           37      
+     duplicate acks:            0           duplicate acks:            0      
+     triple dupacks:            0           triple dupacks:            0      
+     max # retrans:             0           max # retrans:             0      
+     min retr time:           0.0 ms        min retr time:           0.0 ms   
+     max retr time:           0.0 ms        max retr time:           0.0 ms   
+     avg retr time:           0.0 ms        avg retr time:           0.0 ms   
+     sdv retr time:           0.0 ms        sdv retr time:           0.0 ms   
+================================
+TCP connection 3:
+	host e:        192.11.68.196:38296
+	host f:        10.168.207.107:80
+	complete conn: yes
+	first packet:  Thu Feb  7 10:46:56.798803 2013
+	last packet:   Thu Feb  7 10:46:57.302985 2013
+	elapsed time:  0:00:00.504182
+	total packets: 118
+	filename:      lengthFixed.pcap
+   e->f:			      f->e:
+     total packets:            42           total packets:            76      
+     ack pkts sent:            41           ack pkts sent:            76      
+     pure acks sent:           39           pure acks sent:            0      
+     sack pkts sent:            0           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         0           max sack blks/ack:         0      
+     unique bytes sent:       132           unique bytes sent:    102650      
+     actual data pkts:          1           actual data pkts:         74      
+     actual data bytes:       132           actual data bytes:    102650      
+     rexmt data pkts:           0           rexmt data pkts:           0      
+     rexmt data bytes:          0           rexmt data bytes:          0      
+     zwnd probe pkts:           0           zwnd probe pkts:           0      
+     zwnd probe bytes:          0           zwnd probe bytes:          0      
+     outoforder pkts:           0           outoforder pkts:           0      
+     pushed data pkts:          1           pushed data pkts:          1      
+     SYN/FIN pkts sent:       1/1           SYN/FIN pkts sent:       1/1      
+     req 1323 ws/ts:          Y/N           req 1323 ws/ts:          Y/N      
+     adv wind scale:            0           adv wind scale:            8      
+     req sack:                  Y           req sack:                  Y      
+     sacks sent:                0           sacks sent:                0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:          1388 bytes     mss requested:          1460 bytes
+     max segm size:           132 bytes     max segm size:          1388 bytes
+     min segm size:           132 bytes     min segm size:          1326 bytes
+     avg segm size:           131 bytes     avg segm size:          1387 bytes
+     max win adv:           65535 bytes     max win adv:           66560 bytes
+     min win adv:           65535 bytes     min win adv:           66560 bytes
+     zero win adv:              0 times     zero win adv:              0 times
+     avg win adv:           65535 bytes     avg win adv:           66560 bytes
+     max owin:                133 bytes     max owin:              49969 bytes
+     min non-zero owin:         1 bytes     min non-zero owin:         1 bytes
+     avg owin:                  4 bytes     avg owin:              24262 bytes
+     wavg owin:                15 bytes     wavg owin:             17104 bytes
+     initial window:          132 bytes     initial window:         2776 bytes
+     initial window:            1 pkts      initial window:            2 pkts 
+     ttl stream length:       132 bytes     ttl stream length:    102650 bytes
+     missed data:               0 bytes     missed data:               0 bytes
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:        0.000 secs      data xmit time:        0.309 secs 
+     idletime max:           62.0 ms        idletime max:           68.5 ms   
+     throughput:              262 Bps       throughput:           203597 Bps  
+
+     RTT samples:               3           RTT samples:              39      
+     RTT min:                 0.3 ms        RTT min:                58.6 ms   
+     RTT max:                 1.5 ms        RTT max:                75.5 ms   
+     RTT avg:                 0.7 ms        RTT avg:                66.0 ms   
+     RTT stdev:               0.7 ms        RTT stdev:               5.7 ms   
+
+     RTT from 3WHS:           0.3 ms        RTT from 3WHS:          59.0 ms   
+
+     RTT full_sz smpls:         2           RTT full_sz smpls:         2      
+     RTT full_sz min:         0.3 ms        RTT full_sz min:        58.6 ms   
+     RTT full_sz max:         0.3 ms        RTT full_sz max:        59.0 ms   
+     RTT full_sz avg:         0.3 ms        RTT full_sz avg:        58.8 ms   
+     RTT full_sz stdev:       0.0 ms        RTT full_sz stdev:       0.0 ms   
+
+     post-loss acks:            0           post-loss acks:            0      
+     segs cum acked:            0           segs cum acked:           37      
+     duplicate acks:            0           duplicate acks:            1      
+     triple dupacks:            0           triple dupacks:            0      
+     max # retrans:             0           max # retrans:             0      
+     min retr time:           0.0 ms        min retr time:           0.0 ms   
+     max retr time:           0.0 ms        max retr time:           0.0 ms   
+     avg retr time:           0.0 ms        avg retr time:           0.0 ms   
+     sdv retr time:           0.0 ms        sdv retr time:           0.0 ms   
+================================
+TCP connection 4:
+	host g:        192.11.68.196:38298
+	host h:        10.168.207.108:80
+	complete conn: yes
+	first packet:  Thu Feb  7 10:46:57.978717 2013
+	last packet:   Thu Feb  7 10:46:58.270357 2013
+	elapsed time:  0:00:00.291640
+	total packets: 120
+	filename:      lengthFixed.pcap
+   g->h:			      h->g:
+     total packets:            43           total packets:            77      
+     ack pkts sent:            42           ack pkts sent:            77      
+     pure acks sent:           40           pure acks sent:            1      
+     sack pkts sent:            0           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         0           max sack blks/ack:         0      
+     unique bytes sent:       132           unique bytes sent:    102712      
+     actual data pkts:          1           actual data pkts:         74      
+     actual data bytes:       132           actual data bytes:    102712      
+     rexmt data pkts:           0           rexmt data pkts:           0      
+     rexmt data bytes:          0           rexmt data bytes:          0      
+     zwnd probe pkts:           0           zwnd probe pkts:           0      
+     zwnd probe bytes:          0           zwnd probe bytes:          0      
+     outoforder pkts:           0           outoforder pkts:           0      
+     pushed data pkts:          1           pushed data pkts:          0      
+     SYN/FIN pkts sent:       1/1           SYN/FIN pkts sent:       1/1      
+     req 1323 ws/ts:          Y/N           req 1323 ws/ts:          Y/N      
+     adv wind scale:            7           adv wind scale:            6      
+     req sack:                  Y           req sack:                  Y      
+     sacks sent:                0           sacks sent:                0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:          1388 bytes     mss requested:          1460 bytes
+     max segm size:           132 bytes     max segm size:          1388 bytes
+     min segm size:           132 bytes     min segm size:          1388 bytes
+     avg segm size:           131 bytes     avg segm size:          1387 bytes
+     max win adv:          115072 bytes     max win adv:           15680 bytes
+     min win adv:           48000 bytes     min win adv:           15680 bytes
+     zero win adv:              0 times     zero win adv:              0 times
+     avg win adv:           82840 bytes     avg win adv:           15680 bytes
+     max owin:                133 bytes     max owin:              43029 bytes
+     min non-zero owin:         1 bytes     min non-zero owin:         1 bytes
+     avg owin:                  4 bytes     avg owin:              15707 bytes
+     wavg owin:                13 bytes     wavg owin:             20991 bytes
+     initial window:          132 bytes     initial window:        13880 bytes
+     initial window:            1 pkts      initial window:           10 pkts 
+     ttl stream length:       132 bytes     ttl stream length:    102719 bytes
+     missed data:               0 bytes     missed data:               7 bytes
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:        0.000 secs      data xmit time:        0.095 secs 
+     idletime max:           65.5 ms        idletime max:           97.6 ms   
+     throughput:              453 Bps       throughput:           352188 Bps  
+
+     RTT samples:               3           RTT samples:              39      
+     RTT min:                 0.2 ms        RTT min:                30.7 ms   
+     RTT max:                 0.4 ms        RTT max:                32.6 ms   
+     RTT avg:                 0.2 ms        RTT avg:                31.3 ms   
+     RTT stdev:               0.1 ms        RTT stdev:               0.3 ms   
+
+     RTT from 3WHS:           0.2 ms        RTT from 3WHS:          30.7 ms   
+
+     RTT full_sz smpls:         2           RTT full_sz smpls:         2      
+     RTT full_sz min:         0.2 ms        RTT full_sz min:        30.7 ms   
+     RTT full_sz max:         0.4 ms        RTT full_sz max:        30.8 ms   
+     RTT full_sz avg:         0.3 ms        RTT full_sz avg:        30.8 ms   
+     RTT full_sz stdev:       0.0 ms        RTT full_sz stdev:       0.0 ms   
+
+     post-loss acks:            0           post-loss acks:            0      
+     segs cum acked:            0           segs cum acked:           37      
+     duplicate acks:            0           duplicate acks:            0      
+     triple dupacks:            0           triple dupacks:            0      
+     max # retrans:             0           max # retrans:             0      
+     min retr time:           0.0 ms        min retr time:           0.0 ms   
+     max retr time:           0.0 ms        max retr time:           0.0 ms   
+     avg retr time:           0.0 ms        avg retr time:           0.0 ms   
+     sdv retr time:           0.0 ms        sdv retr time:           0.0 ms   
+================================
+TCP connection 5:
+	host i:        192.11.68.196:38301
+	host j:        10.168.207.109:80
+	complete conn: yes
+	first packet:  Thu Feb  7 10:46:58.988594 2013
+	last packet:   Thu Feb  7 10:46:59.442887 2013
+	elapsed time:  0:00:00.454293
+	total packets: 120
+	filename:      lengthFixed.pcap
+   i->j:			      j->i:
+     total packets:            42           total packets:            78      
+     ack pkts sent:            41           ack pkts sent:            78      
+     pure acks sent:           39           pure acks sent:            1      
+     sack pkts sent:            0           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         0           max sack blks/ack:         0      
+     unique bytes sent:       132           unique bytes sent:    102719      
+     actual data pkts:          1           actual data pkts:         75      
+     actual data bytes:       132           actual data bytes:    102719      
+     rexmt data pkts:           0           rexmt data pkts:           0      
+     rexmt data bytes:          0           rexmt data bytes:          0      
+     zwnd probe pkts:           0           zwnd probe pkts:           0      
+     zwnd probe bytes:          0           zwnd probe bytes:          0      
+     outoforder pkts:           0           outoforder pkts:           0      
+     pushed data pkts:          1           pushed data pkts:          2      
+     SYN/FIN pkts sent:       1/1           SYN/FIN pkts sent:       1/1      
+     req 1323 ws/ts:          Y/N           req 1323 ws/ts:          Y/N      
+     adv wind scale:            0           adv wind scale:            6      
+     req sack:                  Y           req sack:                  Y      
+     sacks sent:                0           sacks sent:                0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:          1388 bytes     mss requested:          1460 bytes
+     max segm size:           132 bytes     max segm size:          1388 bytes
+     min segm size:           132 bytes     min segm size:             7 bytes
+     avg segm size:           131 bytes     avg segm size:          1369 bytes
+     max win adv:           65535 bytes     max win adv:           15680 bytes
+     min win adv:           65528 bytes     min win adv:           15680 bytes
+     zero win adv:              0 times     zero win adv:              0 times
+     avg win adv:           65534 bytes     avg win adv:           15680 bytes
+     max owin:                133 bytes     max owin:              40253 bytes
+     min non-zero owin:         1 bytes     min non-zero owin:         1 bytes
+     avg owin:                  4 bytes     avg owin:              21794 bytes
+     wavg owin:                17 bytes     wavg owin:             19637 bytes
+     initial window:          132 bytes     initial window:        13880 bytes
+     initial window:            1 pkts      initial window:           10 pkts 
+     ttl stream length:       132 bytes     ttl stream length:    102719 bytes
+     missed data:               0 bytes     missed data:               0 bytes
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:        0.000 secs      data xmit time:        0.243 secs 
+     idletime max:           64.3 ms        idletime max:           82.5 ms   
+     throughput:              291 Bps       throughput:           226107 Bps  
+
+     RTT samples:               3           RTT samples:              40      
+     RTT min:                 0.2 ms        RTT min:                56.9 ms   
+     RTT max:                 0.2 ms        RTT max:                83.7 ms   
+     RTT avg:                 0.2 ms        RTT avg:                69.5 ms   
+     RTT stdev:               0.0 ms        RTT stdev:               7.7 ms   
+
+     RTT from 3WHS:           0.2 ms        RTT from 3WHS:          64.1 ms   
+
+     RTT full_sz smpls:         2           RTT full_sz smpls:         2      
+     RTT full_sz min:         0.2 ms        RTT full_sz min:        56.9 ms   
+     RTT full_sz max:         0.2 ms        RTT full_sz max:        64.1 ms   
+     RTT full_sz avg:         0.2 ms        RTT full_sz avg:        60.5 ms   
+     RTT full_sz stdev:       0.0 ms        RTT full_sz stdev:       0.0 ms   
+
+     post-loss acks:            0           post-loss acks:            0      
+     segs cum acked:            0           segs cum acked:           37      
+     duplicate acks:            0           duplicate acks:            0      
+     triple dupacks:            0           triple dupacks:            0      
+     max # retrans:             0           max # retrans:             0      
+     min retr time:           0.0 ms        min retr time:           0.0 ms   
+     max retr time:           0.0 ms        max retr time:           0.0 ms   
+     avg retr time:           0.0 ms        avg retr time:           0.0 ms   
+     sdv retr time:           0.0 ms        sdv retr time:           0.0 ms   
+================================
+TCP connection 6:
+	host k:        192.11.68.196:38307
+	host l:        10.168.207.106:80
+	complete conn: yes
+	first packet:  Thu Feb  7 10:47:00.143674 2013
+	last packet:   Thu Feb  7 10:47:00.796269 2013
+	elapsed time:  0:00:00.652595
+	total packets: 565
+	filename:      lengthFixed.pcap
+   k->l:			      l->k:
+     total packets:           195           total packets:           370      
+     ack pkts sent:           194           ack pkts sent:           370      
+     pure acks sent:          192           pure acks sent:            0      
+     sack pkts sent:            0           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         0           max sack blks/ack:         0      
+     unique bytes sent:       132           unique bytes sent:    506398      
+     actual data pkts:          1           actual data pkts:        368      
+     actual data bytes:       132           actual data bytes:    506398      
+     rexmt data pkts:           0           rexmt data pkts:           0      
+     rexmt data bytes:          0           rexmt data bytes:          0      
+     zwnd probe pkts:           0           zwnd probe pkts:           0      
+     zwnd probe bytes:          0           zwnd probe bytes:          0      
+     outoforder pkts:           0           outoforder pkts:           0      
+     pushed data pkts:          1           pushed data pkts:          7      
+     SYN/FIN pkts sent:       1/1           SYN/FIN pkts sent:       1/1      
+     req 1323 ws/ts:          Y/N           req 1323 ws/ts:          Y/N      
+     adv wind scale:            7           adv wind scale:            8      
+     req sack:                  Y           req sack:                  Y      
+     sacks sent:                0           sacks sent:                0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:          1388 bytes     mss requested:          1460 bytes
+     max segm size:           132 bytes     max segm size:          1388 bytes
+     min segm size:           132 bytes     min segm size:           300 bytes
+     avg segm size:           131 bytes     avg segm size:          1376 bytes
+     max win adv:          169600 bytes     max win adv:           66560 bytes
+     min win adv:           40576 bytes     min win adv:           66560 bytes
+     zero win adv:              0 times     zero win adv:              0 times
+     avg win adv:           89153 bytes     avg win adv:           66560 bytes
+     max owin:                133 bytes     max owin:              88045 bytes
+     min non-zero owin:         1 bytes     min non-zero owin:         1 bytes
+     avg owin:                  1 bytes     avg owin:              48853 bytes
+     wavg owin:                 9 bytes     wavg owin:             36670 bytes
+     initial window:          132 bytes     initial window:         2776 bytes
+     initial window:            1 pkts      initial window:            2 pkts 
+     ttl stream length:       132 bytes     ttl stream length:    512250 bytes
+     missed data:               0 bytes     missed data:            5852 bytes
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:        0.000 secs      data xmit time:        0.326 secs 
+     idletime max:          181.2 ms        idletime max:          212.6 ms   
+     throughput:              202 Bps       throughput:           775976 Bps  
+
+     RTT samples:               3           RTT samples:             188      
+     RTT min:                 0.3 ms        RTT min:                30.7 ms   
+     RTT max:                15.8 ms        RTT max:                36.5 ms   
+     RTT avg:                 5.4 ms        RTT avg:                31.5 ms   
+     RTT stdev:               8.9 ms        RTT stdev:               0.5 ms   
+
+     RTT from 3WHS:           0.3 ms        RTT from 3WHS:          30.7 ms   
+
+     RTT full_sz smpls:         2           RTT full_sz smpls:         2      
+     RTT full_sz min:         0.3 ms        RTT full_sz min:        30.7 ms   
+     RTT full_sz max:         0.3 ms        RTT full_sz max:        30.8 ms   
+     RTT full_sz avg:         0.3 ms        RTT full_sz avg:        30.8 ms   
+     RTT full_sz stdev:       0.0 ms        RTT full_sz stdev:       0.0 ms   
+
+     post-loss acks:            0           post-loss acks:            0      
+     segs cum acked:            0           segs cum acked:          182      
+     duplicate acks:            0           duplicate acks:            0      
+     triple dupacks:            0           triple dupacks:            0      
+     max # retrans:             0           max # retrans:             0      
+     min retr time:           0.0 ms        min retr time:           0.0 ms   
+     max retr time:           0.0 ms        max retr time:           0.0 ms   
+     avg retr time:           0.0 ms        avg retr time:           0.0 ms   
+     sdv retr time:           0.0 ms        sdv retr time:           0.0 ms   
+================================
+TCP connection 7:
+	host m:        192.11.68.196:38309
+	host n:        10.168.207.107:80
+	complete conn: yes
+	first packet:  Thu Feb  7 10:47:01.498661 2013
+	last packet:   Thu Feb  7 10:47:02.477838 2013
+	elapsed time:  0:00:00.979177
+	total packets: 568
+	filename:      lengthFixed.pcap
+   m->n:			      n->m:
+     total packets:           192           total packets:           376      
+     ack pkts sent:           191           ack pkts sent:           376      
+     pure acks sent:          189           pure acks sent:            0      
+     sack pkts sent:            0           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         0           max sack blks/ack:         0      
+     unique bytes sent:       132           unique bytes sent:    512250      
+     actual data pkts:          1           actual data pkts:        374      
+     actual data bytes:       132           actual data bytes:    512250      
+     rexmt data pkts:           0           rexmt data pkts:           0      
+     rexmt data bytes:          0           rexmt data bytes:          0      
+     zwnd probe pkts:           0           zwnd probe pkts:           0      
+     zwnd probe bytes:          0           zwnd probe bytes:          0      
+     outoforder pkts:           0           outoforder pkts:           0      
+     pushed data pkts:          1           pushed data pkts:          8      
+     SYN/FIN pkts sent:       1/1           SYN/FIN pkts sent:       1/1      
+     req 1323 ws/ts:          Y/N           req 1323 ws/ts:          Y/N      
+     adv wind scale:            0           adv wind scale:            8      
+     req sack:                  Y           req sack:                  Y      
+     sacks sent:                0           sacks sent:                0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:          1388 bytes     mss requested:          1460 bytes
+     max segm size:           132 bytes     max segm size:          1388 bytes
+     min segm size:           132 bytes     min segm size:           300 bytes
+     avg segm size:           131 bytes     avg segm size:          1369 bytes
+     max win adv:           65535 bytes     max win adv:           66560 bytes
+     min win adv:           65535 bytes     min win adv:           66560 bytes
+     zero win adv:              0 times     zero win adv:              0 times
+     avg win adv:           65535 bytes     avg win adv:           66560 bytes
+     max owin:                133 bytes     max owin:              64449 bytes
+     min non-zero owin:         1 bytes     min non-zero owin:         1 bytes
+     avg owin:                  1 bytes     avg owin:              50153 bytes
+     wavg owin:                 7 bytes     wavg owin:             39484 bytes
+     initial window:          132 bytes     initial window:         2776 bytes
+     initial window:            1 pkts      initial window:            2 pkts 
+     ttl stream length:       132 bytes     ttl stream length:    512250 bytes
+     missed data:               0 bytes     missed data:               0 bytes
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:        0.000 secs      data xmit time:        0.781 secs 
+     idletime max:           64.7 ms        idletime max:           76.5 ms   
+     throughput:              135 Bps       throughput:           523143 Bps  
+
+     RTT samples:               3           RTT samples:             189      
+     RTT min:                 0.2 ms        RTT min:                55.7 ms   
+     RTT max:                 1.4 ms        RTT max:                82.6 ms   
+     RTT avg:                 0.6 ms        RTT avg:                69.8 ms   
+     RTT stdev:               0.6 ms        RTT stdev:               7.0 ms   
+
+     RTT from 3WHS:           0.3 ms        RTT from 3WHS:          59.0 ms   
+
+     RTT full_sz smpls:         2           RTT full_sz smpls:         2      
+     RTT full_sz min:         0.2 ms        RTT full_sz min:        57.8 ms   
+     RTT full_sz max:         0.3 ms        RTT full_sz max:        59.0 ms   
+     RTT full_sz avg:         0.3 ms        RTT full_sz avg:        58.4 ms   
+     RTT full_sz stdev:       0.0 ms        RTT full_sz stdev:       0.0 ms   
+
+     post-loss acks:            0           post-loss acks:            0      
+     segs cum acked:            0           segs cum acked:          187      
+     duplicate acks:            0           duplicate acks:            1      
+     triple dupacks:            0           triple dupacks:            0      
+     max # retrans:             0           max # retrans:             0      
+     min retr time:           0.0 ms        min retr time:           0.0 ms   
+     max retr time:           0.0 ms        max retr time:           0.0 ms   
+     avg retr time:           0.0 ms        avg retr time:           0.0 ms   
+     sdv retr time:           0.0 ms        sdv retr time:           0.0 ms   
+================================
+TCP connection 8:
+	host o:        192.11.68.196:38310
+	host p:        10.168.207.108:80
+	complete conn: yes
+	first packet:  Thu Feb  7 10:47:03.159651 2013
+	last packet:   Thu Feb  7 10:47:03.683213 2013
+	elapsed time:  0:00:00.523562
+	total packets: 512
+	filename:      lengthFixed.pcap
+   o->p:			      p->o:
+     total packets:           185           total packets:           327      
+     ack pkts sent:           184           ack pkts sent:           327      
+     pure acks sent:          182           pure acks sent:            1      
+     sack pkts sent:            0           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         0           max sack blks/ack:         0      
+     unique bytes sent:       132           unique bytes sent:    449712      
+     actual data pkts:          1           actual data pkts:        324      
+     actual data bytes:       132           actual data bytes:    449712      
+     rexmt data pkts:           0           rexmt data pkts:           0      
+     rexmt data bytes:          0           rexmt data bytes:          0      
+     zwnd probe pkts:           0           zwnd probe pkts:           0      
+     zwnd probe bytes:          0           zwnd probe bytes:          0      
+     outoforder pkts:           0           outoforder pkts:           0      
+     pushed data pkts:          1           pushed data pkts:          2      
+     SYN/FIN pkts sent:       1/1           SYN/FIN pkts sent:       1/1      
+     req 1323 ws/ts:          Y/N           req 1323 ws/ts:          Y/N      
+     adv wind scale:            7           adv wind scale:            6      
+     req sack:                  Y           req sack:                  Y      
+     sacks sent:                0           sacks sent:                0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:          1388 bytes     mss requested:          1460 bytes
+     max segm size:           132 bytes     max segm size:          1388 bytes
+     min segm size:           132 bytes     min segm size:          1388 bytes
+     avg segm size:           131 bytes     avg segm size:          1387 bytes
+     max win adv:          203264 bytes     max win adv:           15680 bytes
+     min win adv:           27904 bytes     min win adv:           15680 bytes
+     zero win adv:              0 times     zero win adv:              0 times
+     avg win adv:          102241 bytes     avg win adv:           15680 bytes
+     max owin:                133 bytes     max owin:              92997 bytes
+     min non-zero owin:         1 bytes     min non-zero owin:         1 bytes
+     avg owin:                  1 bytes     avg owin:              31669 bytes
+     wavg owin:                 7 bytes     wavg owin:             37275 bytes
+     initial window:          132 bytes     initial window:        13880 bytes
+     initial window:            1 pkts      initial window:           10 pkts 
+     ttl stream length:       132 bytes     ttl stream length:    512319 bytes
+     missed data:               0 bytes     missed data:           62607 bytes
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:        0.000 secs      data xmit time:        0.320 secs 
+     idletime max:           79.4 ms        idletime max:          111.7 ms   
+     throughput:              252 Bps       throughput:           858947 Bps  
+
+     RTT samples:               3           RTT samples:             158      
+     RTT min:                 0.2 ms        RTT min:                30.7 ms   
+     RTT max:                 0.3 ms        RTT max:                37.6 ms   
+     RTT avg:                 0.2 ms        RTT avg:                31.7 ms   
+     RTT stdev:               0.1 ms        RTT stdev:               0.7 ms   
+
+     RTT from 3WHS:           0.2 ms        RTT from 3WHS:          31.1 ms   
+
+     RTT full_sz smpls:         2           RTT full_sz smpls:         2      
+     RTT full_sz min:         0.2 ms        RTT full_sz min:        30.7 ms   
+     RTT full_sz max:         0.3 ms        RTT full_sz max:        31.1 ms   
+     RTT full_sz avg:         0.3 ms        RTT full_sz avg:        30.9 ms   
+     RTT full_sz stdev:       0.0 ms        RTT full_sz stdev:       0.0 ms   
+
+     post-loss acks:            0           post-loss acks:            0      
+     segs cum acked:            0           segs cum acked:          168      
+     duplicate acks:            0           duplicate acks:            0      
+     triple dupacks:            0           triple dupacks:            0      
+     max # retrans:             0           max # retrans:             0      
+     min retr time:           0.0 ms        min retr time:           0.0 ms   
+     max retr time:           0.0 ms        max retr time:           0.0 ms   
+     avg retr time:           0.0 ms        avg retr time:           0.0 ms   
+     sdv retr time:           0.0 ms        sdv retr time:           0.0 ms   
+================================
+TCP connection 9:
+	host q:        192.11.68.196:38311
+	host r:        10.168.207.109:80
+	complete conn: yes
+	first packet:  Thu Feb  7 10:47:04.439749 2013
+	last packet:   Thu Feb  7 10:47:05.337944 2013
+	elapsed time:  0:00:00.898195
+	total packets: 563
+	filename:      lengthFixed.pcap
+   q->r:			      r->q:
+     total packets:           190           total packets:           373      
+     ack pkts sent:           189           ack pkts sent:           373      
+     pure acks sent:          187           pure acks sent:            1      
+     sack pkts sent:            0           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         0           max sack blks/ack:         0      
+     unique bytes sent:       132           unique bytes sent:    512319      
+     actual data pkts:          1           actual data pkts:        370      
+     actual data bytes:       132           actual data bytes:    512319      
+     rexmt data pkts:           0           rexmt data pkts:           0      
+     rexmt data bytes:          0           rexmt data bytes:          0      
+     zwnd probe pkts:           0           zwnd probe pkts:           0      
+     zwnd probe bytes:          0           zwnd probe bytes:          0      
+     outoforder pkts:           0           outoforder pkts:           0      
+     pushed data pkts:          1           pushed data pkts:          8      
+     SYN/FIN pkts sent:       1/1           SYN/FIN pkts sent:       1/1      
+     req 1323 ws/ts:          Y/N           req 1323 ws/ts:          Y/N      
+     adv wind scale:            0           adv wind scale:            6      
+     req sack:                  Y           req sack:                  Y      
+     sacks sent:                0           sacks sent:                0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:          1388 bytes     mss requested:          1460 bytes
+     max segm size:           132 bytes     max segm size:          1388 bytes
+     min segm size:           132 bytes     min segm size:           147 bytes
+     avg segm size:           131 bytes     avg segm size:          1384 bytes
+     max win adv:           65535 bytes     max win adv:           15680 bytes
+     min win adv:           65535 bytes     min win adv:           15680 bytes
+     zero win adv:              0 times     zero win adv:              0 times
+     avg win adv:           65535 bytes     avg win adv:           15680 bytes
+     max owin:                133 bytes     max owin:              65237 bytes
+     min non-zero owin:         1 bytes     min non-zero owin:         1 bytes
+     avg owin:                  1 bytes     avg owin:              46708 bytes
+     wavg owin:                 7 bytes     wavg owin:             41771 bytes
+     initial window:          132 bytes     initial window:        13880 bytes
+     initial window:            1 pkts      initial window:           10 pkts 
+     ttl stream length:       132 bytes     ttl stream length:    512319 bytes
+     missed data:               0 bytes     missed data:               0 bytes
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:        0.000 secs      data xmit time:        0.715 secs 
+     idletime max:           58.2 ms        idletime max:           63.9 ms   
+     throughput:              147 Bps       throughput:           570387 Bps  
+
+     RTT samples:               3           RTT samples:             187      
+     RTT min:                 0.2 ms        RTT min:                55.1 ms   
+     RTT max:                 0.2 ms        RTT max:                81.5 ms   
+     RTT avg:                 0.2 ms        RTT avg:                66.3 ms   
+     RTT stdev:               0.0 ms        RTT stdev:               6.5 ms   
+
+     RTT from 3WHS:           0.2 ms        RTT from 3WHS:          58.0 ms   
+
+     RTT full_sz smpls:         2           RTT full_sz smpls:         2      
+     RTT full_sz min:         0.2 ms        RTT full_sz min:        57.8 ms   
+     RTT full_sz max:         0.2 ms        RTT full_sz max:        58.0 ms   
+     RTT full_sz avg:         0.2 ms        RTT full_sz avg:        57.9 ms   
+     RTT full_sz stdev:       0.0 ms        RTT full_sz stdev:       0.0 ms   
+
+     post-loss acks:            0           post-loss acks:            0      
+     segs cum acked:            0           segs cum acked:          185      
+     duplicate acks:            0           duplicate acks:            1      
+     triple dupacks:            0           triple dupacks:            0      
+     max # retrans:             0           max # retrans:             0      
+     min retr time:           0.0 ms        min retr time:           0.0 ms   
+     max retr time:           0.0 ms        max retr time:           0.0 ms   
+     avg retr time:           0.0 ms        avg retr time:           0.0 ms   
+     sdv retr time:           0.0 ms        sdv retr time:           0.0 ms   
+================================
+TCP connection 10:
+	host s:        192.11.68.196:38313
+	host t:        10.168.207.106:80
+	complete conn: yes
+	first packet:  Thu Feb  7 10:47:06.000662 2013
+	last packet:   Thu Feb  7 10:47:07.035407 2013
+	elapsed time:  0:00:01.034745
+	total packets: 1153
+	filename:      lengthFixed.pcap
+   s->t:			      t->s:
+     total packets:           423           total packets:           730      
+     ack pkts sent:           422           ack pkts sent:           730      
+     pure acks sent:          420           pure acks sent:            0      
+     sack pkts sent:           47           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         4           max sack blks/ack:         0      
+     unique bytes sent:       130           unique bytes sent:    979914      
+     actual data pkts:          1           actual data pkts:        728      
+     actual data bytes:       130           actual data bytes:    997958      
+     rexmt data pkts:           0           rexmt data pkts:          17      
+     rexmt data bytes:          0           rexmt data bytes:      18044      
+     zwnd probe pkts:           0           zwnd probe pkts:           0      
+     zwnd probe bytes:          0           zwnd probe bytes:          0      
+     outoforder pkts:           0           outoforder pkts:          10      
+     pushed data pkts:          1           pushed data pkts:         14      
+     SYN/FIN pkts sent:       1/1           SYN/FIN pkts sent:       1/1      
+     req 1323 ws/ts:          Y/N           req 1323 ws/ts:          Y/N      
+     adv wind scale:            7           adv wind scale:            8      
+     req sack:                  Y           req sack:                  Y      
+     sacks sent:               47           sacks sent:                0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:          1388 bytes     mss requested:          1460 bytes
+     max segm size:           130 bytes     max segm size:          1388 bytes
+     min segm size:           130 bytes     min segm size:           224 bytes
+     avg segm size:           129 bytes     avg segm size:          1370 bytes
+     max win adv:          192384 bytes     max win adv:           66560 bytes
+     min win adv:           42368 bytes     min win adv:           66560 bytes
+     zero win adv:              0 times     zero win adv:              0 times
+     avg win adv:          124504 bytes     avg win adv:           66560 bytes
+     max owin:                131 bytes     max owin:             114117 bytes
+     min non-zero owin:         1 bytes     min non-zero owin:         1 bytes
+     avg owin:                  1 bytes     avg owin:              29263 bytes
+     wavg owin:                 3 bytes     wavg owin:             35141 bytes
+     initial window:          130 bytes     initial window:         2776 bytes
+     initial window:            1 pkts      initial window:            2 pkts 
+     ttl stream length:       130 bytes     ttl stream length:   1048826 bytes
+     missed data:               0 bytes     missed data:           68912 bytes
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:        0.000 secs      data xmit time:        0.857 secs 
+     idletime max:           48.7 ms        idletime max:           80.2 ms   
+     throughput:              126 Bps       throughput:           947010 Bps  
+
+     RTT samples:               3           RTT samples:             354      
+     RTT min:                 0.2 ms        RTT min:                30.7 ms   
+     RTT max:                 1.5 ms        RTT max:                50.1 ms   
+     RTT avg:                 0.7 ms        RTT avg:                31.6 ms   
+     RTT stdev:               0.7 ms        RTT stdev:               1.9 ms   
+
+     RTT from 3WHS:           0.3 ms        RTT from 3WHS:          30.8 ms   
+
+     RTT full_sz smpls:         2           RTT full_sz smpls:         2      
+     RTT full_sz min:         0.2 ms        RTT full_sz min:        30.8 ms   
+     RTT full_sz max:         0.3 ms        RTT full_sz max:        30.9 ms   
+     RTT full_sz avg:         0.3 ms        RTT full_sz avg:        30.8 ms   
+     RTT full_sz stdev:       0.0 ms        RTT full_sz stdev:       0.0 ms   
+
+     post-loss acks:            0           post-loss acks:           10      
+	  For the following 5 RTT statistics, only ACKs for
+	  multiply-transmitted segments (ambiguous ACKs) were
+	  considered.  Times are taken from the last instance
+	  of a segment.
+     ambiguous acks:            0           ambiguous acks:            3      
+     RTT min (last):          0.0 ms        RTT min (last):         31.0 ms   
+     RTT max (last):          0.0 ms        RTT max (last):         31.3 ms   
+     RTT avg (last):          0.0 ms        RTT avg (last):         31.2 ms   
+     RTT sdv (last):          0.0 ms        RTT sdv (last):          0.2 ms   
+     segs cum acked:            0           segs cum acked:          346      
+     duplicate acks:            0           duplicate acks:           20      
+     triple dupacks:            0           triple dupacks:            2      
+     max # retrans:             0           max # retrans:             2      
+     min retr time:           0.0 ms        min retr time:           0.0 ms   
+     max retr time:           0.0 ms        max retr time:          33.4 ms   
+     avg retr time:           0.0 ms        avg retr time:          25.5 ms   
+     sdv retr time:           0.0 ms        sdv retr time:          14.6 ms   
+================================
+TCP connection 11:
+	host u:        192.11.68.196:38314
+	host v:        10.168.207.107:80
+	complete conn: yes
+	first packet:  Thu Feb  7 10:47:07.756586 2013
+	last packet:   Thu Feb  7 10:47:09.237930 2013
+	elapsed time:  0:00:01.481344
+	total packets: 1161
+	filename:      lengthFixed.pcap
+   u->v:			      v->u:
+     total packets:           391           total packets:           770      
+     ack pkts sent:           390           ack pkts sent:           770      
+     pure acks sent:          388           pure acks sent:            0      
+     sack pkts sent:            0           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         0           max sack blks/ack:         0      
+     unique bytes sent:       130           unique bytes sent:   1048826      
+     actual data pkts:          1           actual data pkts:        768      
+     actual data bytes:       130           actual data bytes:   1048826      
+     rexmt data pkts:           0           rexmt data pkts:           0      
+     rexmt data bytes:          0           rexmt data bytes:          0      
+     zwnd probe pkts:           0           zwnd probe pkts:           0      
+     zwnd probe bytes:          0           zwnd probe bytes:          0      
+     outoforder pkts:           0           outoforder pkts:           0      
+     pushed data pkts:          1           pushed data pkts:         17      
+     SYN/FIN pkts sent:       1/1           SYN/FIN pkts sent:       1/1      
+     req 1323 ws/ts:          Y/N           req 1323 ws/ts:          Y/N      
+     adv wind scale:            0           adv wind scale:            8      
+     req sack:                  Y           req sack:                  Y      
+     sacks sent:                0           sacks sent:                0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:          1388 bytes     mss requested:          1460 bytes
+     max segm size:           130 bytes     max segm size:          1388 bytes
+     min segm size:           130 bytes     min segm size:           250 bytes
+     avg segm size:           129 bytes     avg segm size:          1365 bytes
+     max win adv:           65535 bytes     max win adv:           66560 bytes
+     min win adv:           64985 bytes     min win adv:           66560 bytes
+     zero win adv:              0 times     zero win adv:              0 times
+     avg win adv:           65530 bytes     avg win adv:           66560 bytes
+     max owin:                131 bytes     max owin:              64449 bytes
+     min non-zero owin:         1 bytes     min non-zero owin:         1 bytes
+     avg owin:                  1 bytes     avg owin:              55559 bytes
+     wavg owin:                 4 bytes     wavg owin:             48525 bytes
+     initial window:          130 bytes     initial window:         2776 bytes
+     initial window:            1 pkts      initial window:            2 pkts 
+     ttl stream length:       130 bytes     ttl stream length:   1048826 bytes
+     missed data:               0 bytes     missed data:               0 bytes
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:        0.000 secs      data xmit time:        1.273 secs 
+     idletime max:           60.1 ms        idletime max:           90.7 ms   
+     throughput:               88 Bps       throughput:           708023 Bps  
+
+     RTT samples:               3           RTT samples:             387      
+     RTT min:                 0.3 ms        RTT min:                30.9 ms   
+     RTT max:                27.5 ms        RTT max:                87.3 ms   
+     RTT avg:                 9.4 ms        RTT avg:                65.6 ms   
+     RTT stdev:              15.7 ms        RTT stdev:               7.1 ms   
+
+     RTT from 3WHS:           0.3 ms        RTT from 3WHS:          56.1 ms   
+
+     RTT full_sz smpls:         2           RTT full_sz smpls:         2      
+     RTT full_sz min:         0.3 ms        RTT full_sz min:        56.1 ms   
+     RTT full_sz max:         0.3 ms        RTT full_sz max:        57.8 ms   
+     RTT full_sz avg:         0.3 ms        RTT full_sz avg:        56.9 ms   
+     RTT full_sz stdev:       0.0 ms        RTT full_sz stdev:       0.0 ms   
+
+     post-loss acks:            0           post-loss acks:            0      
+     segs cum acked:            0           segs cum acked:          383      
+     duplicate acks:            0           duplicate acks:            2      
+     triple dupacks:            0           triple dupacks:            0      
+     max # retrans:             0           max # retrans:             0      
+     min retr time:           0.0 ms        min retr time:           0.0 ms   
+     max retr time:           0.0 ms        max retr time:           0.0 ms   
+     avg retr time:           0.0 ms        avg retr time:           0.0 ms   
+     sdv retr time:           0.0 ms        sdv retr time:           0.0 ms   
+================================
+TCP connection 12:
+	host w:        192.11.68.196:38320
+	host x:        10.168.207.108:80
+	complete conn: yes
+	first packet:  Thu Feb  7 10:47:09.933674 2013
+	last packet:   Thu Feb  7 10:47:10.888261 2013
+	elapsed time:  0:00:00.954587
+	total packets: 1095
+	filename:      lengthFixed.pcap
+   w->x:			      x->w:
+     total packets:           389           total packets:           706      
+     ack pkts sent:           388           ack pkts sent:           706      
+     pure acks sent:          386           pure acks sent:            1      
+     sack pkts sent:            0           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         0           max sack blks/ack:         0      
+     unique bytes sent:       130           unique bytes sent:    975333      
+     actual data pkts:          1           actual data pkts:        703      
+     actual data bytes:       130           actual data bytes:    975333      
+     rexmt data pkts:           0           rexmt data pkts:           0      
+     rexmt data bytes:          0           rexmt data bytes:          0      
+     zwnd probe pkts:           0           zwnd probe pkts:           0      
+     zwnd probe bytes:          0           zwnd probe bytes:          0      
+     outoforder pkts:           0           outoforder pkts:           0      
+     pushed data pkts:          1           pushed data pkts:          5      
+     SYN/FIN pkts sent:       1/1           SYN/FIN pkts sent:       1/1      
+     req 1323 ws/ts:          Y/N           req 1323 ws/ts:          Y/N      
+     adv wind scale:            7           adv wind scale:            6      
+     req sack:                  Y           req sack:                  Y      
+     sacks sent:                0           sacks sent:                0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:          1388 bytes     mss requested:          1460 bytes
+     max segm size:           130 bytes     max segm size:          1388 bytes
+     min segm size:           130 bytes     min segm size:           957 bytes
+     avg segm size:           129 bytes     avg segm size:          1387 bytes
+     max win adv:          160640 bytes     max win adv:           15680 bytes
+     min win adv:            3072 bytes     min win adv:           15680 bytes
+     zero win adv:              1 times     zero win adv:              0 times
+     avg win adv:           75319 bytes     avg win adv:           15680 bytes
+     max owin:                131 bytes     max owin:              97161 bytes
+     min non-zero owin:         1 bytes     min non-zero owin:         1 bytes
+     avg owin:                  1 bytes     avg owin:              37496 bytes
+     wavg owin:                 4 bytes     wavg owin:             42007 bytes
+     initial window:          130 bytes     initial window:        13880 bytes
+     initial window:            1 pkts      initial window:           10 pkts 
+     ttl stream length:       130 bytes     ttl stream length:   1048897 bytes
+     missed data:               0 bytes     missed data:           73564 bytes
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:        0.000 secs      data xmit time:        0.751 secs 
+     idletime max:           72.4 ms        idletime max:          104.3 ms   
+     throughput:              136 Bps       throughput:          1021733 Bps  
+
+     RTT samples:               3           RTT samples:             354      
+     RTT min:                 0.2 ms        RTT min:                30.7 ms   
+     RTT max:                 0.4 ms        RTT max:                50.6 ms   
+     RTT avg:                 0.2 ms        RTT avg:                31.7 ms   
+     RTT stdev:               0.1 ms        RTT stdev:               1.4 ms   
+
+     RTT from 3WHS:           0.2 ms        RTT from 3WHS:          30.9 ms   
+
+     RTT full_sz smpls:         2           RTT full_sz smpls:         2      
+     RTT full_sz min:         0.2 ms        RTT full_sz min:        30.7 ms   
+     RTT full_sz max:         0.4 ms        RTT full_sz max:        30.9 ms   
+     RTT full_sz avg:         0.3 ms        RTT full_sz avg:        30.8 ms   
+     RTT full_sz stdev:       0.0 ms        RTT full_sz stdev:       0.0 ms   
+
+     post-loss acks:            0           post-loss acks:            0      
+     segs cum acked:            0           segs cum acked:          351      
+     duplicate acks:            0           duplicate acks:            1      
+     triple dupacks:            0           triple dupacks:            0      
+     max # retrans:             0           max # retrans:             0      
+     min retr time:           0.0 ms        min retr time:           0.0 ms   
+     max retr time:           0.0 ms        max retr time:           0.0 ms   
+     avg retr time:           0.0 ms        avg retr time:           0.0 ms   
+     sdv retr time:           0.0 ms        sdv retr time:           0.0 ms   
+================================
+TCP connection 13:
+	host y:        192.11.68.196:38329
+	host z:        10.168.207.109:80
+	complete conn: yes
+	first packet:  Thu Feb  7 10:47:11.578688 2013
+	last packet:   Thu Feb  7 10:47:13.273028 2013
+	elapsed time:  0:00:01.694340
+	total packets: 1148
+	filename:      lengthFixed.pcap
+   y->z:			      z->y:
+     total packets:           389           total packets:           759      
+     ack pkts sent:           388           ack pkts sent:           759      
+     pure acks sent:          386           pure acks sent:            1      
+     sack pkts sent:            0           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         0           max sack blks/ack:         0      
+     unique bytes sent:       130           unique bytes sent:   1048897      
+     actual data pkts:          1           actual data pkts:        756      
+     actual data bytes:       130           actual data bytes:   1048897      
+     rexmt data pkts:           0           rexmt data pkts:           0      
+     rexmt data bytes:          0           rexmt data bytes:          0      
+     zwnd probe pkts:           0           zwnd probe pkts:           0      
+     zwnd probe bytes:          0           zwnd probe bytes:          0      
+     outoforder pkts:           0           outoforder pkts:           0      
+     pushed data pkts:          1           pushed data pkts:         16      
+     SYN/FIN pkts sent:       1/1           SYN/FIN pkts sent:       1/1      
+     req 1323 ws/ts:          Y/N           req 1323 ws/ts:          Y/N      
+     adv wind scale:            0           adv wind scale:            6      
+     req sack:                  Y           req sack:                  Y      
+     sacks sent:                0           sacks sent:                0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:          1388 bytes     mss requested:          1460 bytes
+     max segm size:           130 bytes     max segm size:          1388 bytes
+     min segm size:           130 bytes     min segm size:           957 bytes
+     avg segm size:           129 bytes     avg segm size:          1387 bytes
+     max win adv:           65535 bytes     max win adv:           15680 bytes
+     min win adv:           65535 bytes     min win adv:           15680 bytes
+     zero win adv:              0 times     zero win adv:              0 times
+     avg win adv:           65535 bytes     avg win adv:           15680 bytes
+     max owin:                131 bytes     max owin:              65237 bytes
+     min non-zero owin:         1 bytes     min non-zero owin:         1 bytes
+     avg owin:                  1 bytes     avg owin:              45559 bytes
+     wavg owin:                 2 bytes     wavg owin:             46577 bytes
+     initial window:          130 bytes     initial window:        13880 bytes
+     initial window:            1 pkts      initial window:           10 pkts 
+     ttl stream length:       130 bytes     ttl stream length:   1048897 bytes
+     missed data:               0 bytes     missed data:               0 bytes
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:        0.000 secs      data xmit time:        1.502 secs 
+     idletime max:           64.8 ms        idletime max:           66.3 ms   
+     throughput:               77 Bps       throughput:           619059 Bps  
+
+     RTT samples:               3           RTT samples:             385      
+     RTT min:                 0.1 ms        RTT min:                31.2 ms   
+     RTT max:                 0.2 ms        RTT max:               104.6 ms   
+     RTT avg:                 0.2 ms        RTT avg:                70.3 ms   
+     RTT stdev:               0.0 ms        RTT stdev:              11.1 ms   
+
+     RTT from 3WHS:           0.2 ms        RTT from 3WHS:          59.1 ms   
+
+     RTT full_sz smpls:         2           RTT full_sz smpls:         2      
+     RTT full_sz min:         0.1 ms        RTT full_sz min:        59.1 ms   
+     RTT full_sz max:         0.2 ms        RTT full_sz max:        64.7 ms   
+     RTT full_sz avg:         0.2 ms        RTT full_sz avg:        61.9 ms   
+     RTT full_sz stdev:       0.0 ms        RTT full_sz stdev:       0.0 ms   
+
+     post-loss acks:            0           post-loss acks:            0      
+     segs cum acked:            0           segs cum acked:          373      
+     duplicate acks:            0           duplicate acks:            2      
+     triple dupacks:            0           triple dupacks:            0      
+     max # retrans:             0           max # retrans:             0      
+     min retr time:           0.0 ms        min retr time:           0.0 ms   
+     max retr time:           0.0 ms        max retr time:           0.0 ms   
+     avg retr time:           0.0 ms        avg retr time:           0.0 ms   
+     sdv retr time:           0.0 ms        sdv retr time:           0.0 ms   
+================================
+TCP connection 14:
+	host aa:       192.11.68.196:38336
+	host ab:       10.168.207.106:80
+	complete conn: yes
+	first packet:  Thu Feb  7 10:47:13.928915 2013
+	last packet:   Thu Feb  7 10:47:15.776232 2013
+	elapsed time:  0:00:01.847317
+	total packets: 2257
+	filename:      lengthFixed.pcap
+   aa->ab:			      ab->aa:
+     total packets:           798           total packets:          1459      
+     ack pkts sent:           797           ack pkts sent:          1459      
+     pure acks sent:          795           pure acks sent:            0      
+     sack pkts sent:           28           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         4           max sack blks/ack:         0      
+     unique bytes sent:       130           unique bytes sent:   2004106      
+     actual data pkts:          1           actual data pkts:       1457      
+     actual data bytes:       130           actual data bytes:   2011046      
+     rexmt data pkts:           0           rexmt data pkts:           5      
+     rexmt data bytes:          0           rexmt data bytes:       6940      
+     zwnd probe pkts:           0           zwnd probe pkts:           0      
+     zwnd probe bytes:          0           zwnd probe bytes:          0      
+     outoforder pkts:           0           outoforder pkts:           8      
+     pushed data pkts:          1           pushed data pkts:         29      
+     SYN/FIN pkts sent:       1/1           SYN/FIN pkts sent:       1/1      
+     req 1323 ws/ts:          Y/N           req 1323 ws/ts:          Y/N      
+     adv wind scale:            7           adv wind scale:            8      
+     req sack:                  Y           req sack:                  Y      
+     sacks sent:               28           sacks sent:                0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:          1388 bytes     mss requested:          1460 bytes
+     max segm size:           130 bytes     max segm size:          1388 bytes
+     min segm size:           130 bytes     min segm size:           112 bytes
+     avg segm size:           129 bytes     avg segm size:          1380 bytes
+     max win adv:          252160 bytes     max win adv:           66560 bytes
+     min win adv:            3584 bytes     min win adv:           66560 bytes
+     zero win adv:              2 times     zero win adv:              0 times
+     avg win adv:          137928 bytes     avg win adv:           66560 bytes
+     max owin:                131 bytes     max owin:             119369 bytes
+     min non-zero owin:         1 bytes     min non-zero owin:         1 bytes
+     avg owin:                  1 bytes     avg owin:              35452 bytes
+     wavg owin:                 2 bytes     wavg owin:             40565 bytes
+     initial window:          130 bytes     initial window:         2776 bytes
+     initial window:            1 pkts      initial window:            2 pkts 
+     ttl stream length:       130 bytes     ttl stream length:   2097402 bytes
+     missed data:               0 bytes     missed data:           93296 bytes
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:        0.000 secs      data xmit time:        1.645 secs 
+     idletime max:           55.7 ms        idletime max:           86.8 ms   
+     throughput:               70 Bps       throughput:          1084874 Bps  
+
+     RTT samples:               3           RTT samples:             734      
+     RTT min:                 0.2 ms        RTT min:                30.7 ms   
+     RTT max:                 9.3 ms        RTT max:                51.4 ms   
+     RTT avg:                 3.3 ms        RTT avg:                31.5 ms   
+     RTT stdev:               5.3 ms        RTT stdev:               1.3 ms   
+
+     RTT from 3WHS:           0.2 ms        RTT from 3WHS:          30.7 ms   
+
+     RTT full_sz smpls:         2           RTT full_sz smpls:         2      
+     RTT full_sz min:         0.2 ms        RTT full_sz min:        30.7 ms   
+     RTT full_sz max:         0.2 ms        RTT full_sz max:        30.8 ms   
+     RTT full_sz avg:         0.2 ms        RTT full_sz avg:        30.7 ms   
+     RTT full_sz stdev:       0.0 ms        RTT full_sz stdev:       0.0 ms   
+
+     post-loss acks:            0           post-loss acks:            5      
+	  For the following 5 RTT statistics, only ACKs for
+	  multiply-transmitted segments (ambiguous ACKs) were
+	  considered.  Times are taken from the last instance
+	  of a segment.
+     ambiguous acks:            0           ambiguous acks:            1      
+     RTT min (last):          0.0 ms        RTT min (last):         31.0 ms   
+     RTT max (last):          0.0 ms        RTT max (last):         31.0 ms   
+     RTT avg (last):          0.0 ms        RTT avg (last):         31.0 ms   
+     RTT sdv (last):          0.0 ms        RTT sdv (last):          0.0 ms   
+     segs cum acked:            0           segs cum acked:          714      
+     duplicate acks:            0           duplicate acks:           15      
+     triple dupacks:            0           triple dupacks:            2      
+     max # retrans:             0           max # retrans:             1      
+     min retr time:           0.0 ms        min retr time:          32.8 ms   
+     max retr time:           0.0 ms        max retr time:          63.5 ms   
+     avg retr time:           0.0 ms        avg retr time:          51.3 ms   
+     sdv retr time:           0.0 ms        sdv retr time:          16.7 ms   
+================================
+TCP connection 15:
+	host ac:       192.11.68.196:38340
+	host ad:       10.168.207.107:80
+	complete conn: yes
+	first packet:  Thu Feb  7 10:47:16.488859 2013
+	last packet:   Thu Feb  7 10:47:19.247878 2013
+	elapsed time:  0:00:02.759018
+	total packets: 2313
+	filename:      lengthFixed.pcap
+   ac->ad:			      ad->ac:
+     total packets:           775           total packets:          1538      
+     ack pkts sent:           774           ack pkts sent:          1538      
+     pure acks sent:          772           pure acks sent:            0      
+     sack pkts sent:            0           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         0           max sack blks/ack:         0      
+     unique bytes sent:       130           unique bytes sent:   2097402      
+     actual data pkts:          1           actual data pkts:       1536      
+     actual data bytes:       130           actual data bytes:   2097402      
+     rexmt data pkts:           0           rexmt data pkts:           0      
+     rexmt data bytes:          0           rexmt data bytes:          0      
+     zwnd probe pkts:           0           zwnd probe pkts:           0      
+     zwnd probe bytes:          0           zwnd probe bytes:          0      
+     outoforder pkts:           0           outoforder pkts:           0      
+     pushed data pkts:          1           pushed data pkts:         33      
+     SYN/FIN pkts sent:       1/1           SYN/FIN pkts sent:       1/1      
+     req 1323 ws/ts:          Y/N           req 1323 ws/ts:          Y/N      
+     adv wind scale:            0           adv wind scale:            8      
+     req sack:                  Y           req sack:                  Y      
+     sacks sent:                0           sacks sent:                0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:          1388 bytes     mss requested:          1460 bytes
+     max segm size:           130 bytes     max segm size:          1388 bytes
+     min segm size:           130 bytes     min segm size:           250 bytes
+     avg segm size:           129 bytes     avg segm size:          1365 bytes
+     max win adv:           65535 bytes     max win adv:           66560 bytes
+     min win adv:           64985 bytes     min win adv:           66560 bytes
+     zero win adv:              0 times     zero win adv:              0 times
+     avg win adv:           65532 bytes     avg win adv:           66560 bytes
+     max owin:                131 bytes     max owin:              65237 bytes
+     min non-zero owin:         1 bytes     min non-zero owin:         1 bytes
+     avg owin:                  1 bytes     avg owin:              56421 bytes
+     wavg owin:                 1 bytes     wavg owin:             55658 bytes
+     initial window:          130 bytes     initial window:         2776 bytes
+     initial window:            1 pkts      initial window:            2 pkts 
+     ttl stream length:       130 bytes     ttl stream length:   2097402 bytes
+     missed data:               0 bytes     missed data:               0 bytes
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:        0.000 secs      data xmit time:        2.552 secs 
+     idletime max:           60.1 ms        idletime max:           76.3 ms   
+     throughput:               47 Bps       throughput:           760198 Bps  
+
+     RTT samples:               3           RTT samples:             771      
+     RTT min:                 0.3 ms        RTT min:                31.0 ms   
+     RTT max:                 1.5 ms        RTT max:                98.3 ms   
+     RTT avg:                 0.7 ms        RTT avg:                70.8 ms   
+     RTT stdev:               0.7 ms        RTT stdev:               8.9 ms   
+
+     RTT from 3WHS:           0.3 ms        RTT from 3WHS:          59.0 ms   
+
+     RTT full_sz smpls:         2           RTT full_sz smpls:         2      
+     RTT full_sz min:         0.3 ms        RTT full_sz min:        56.4 ms   
+     RTT full_sz max:         0.3 ms        RTT full_sz max:        59.0 ms   
+     RTT full_sz avg:         0.3 ms        RTT full_sz avg:        57.7 ms   
+     RTT full_sz stdev:       0.0 ms        RTT full_sz stdev:       0.0 ms   
+
+     post-loss acks:            0           post-loss acks:            0      
+     segs cum acked:            0           segs cum acked:          767      
+     duplicate acks:            0           duplicate acks:            2      
+     triple dupacks:            0           triple dupacks:            0      
+     max # retrans:             0           max # retrans:             0      
+     min retr time:           0.0 ms        min retr time:           0.0 ms   
+     max retr time:           0.0 ms        max retr time:           0.0 ms   
+     avg retr time:           0.0 ms        avg retr time:           0.0 ms   
+     sdv retr time:           0.0 ms        sdv retr time:           0.0 ms   
+================================
+TCP connection 16:
+	host ae:       192.11.68.196:38341
+	host af:       10.168.207.108:80
+	complete conn: yes
+	first packet:  Thu Feb  7 10:47:19.919063 2013
+	last packet:   Thu Feb  7 10:47:21.888960 2013
+	elapsed time:  0:00:01.969897
+	total packets: 2163
+	filename:      lengthFixed.pcap
+   ae->af:			      af->ae:
+     total packets:           785           total packets:          1378      
+     ack pkts sent:           784           ack pkts sent:          1378      
+     pure acks sent:          782           pure acks sent:            1      
+     sack pkts sent:           35           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         4           max sack blks/ack:         0      
+     unique bytes sent:       130           unique bytes sent:   1894825      
+     actual data pkts:          1           actual data pkts:       1375      
+     actual data bytes:       130           actual data bytes:   1907317      
+     rexmt data pkts:           0           rexmt data pkts:           9      
+     rexmt data bytes:          0           rexmt data bytes:      12492      
+     zwnd probe pkts:           0           zwnd probe pkts:           0      
+     zwnd probe bytes:          0           zwnd probe bytes:          0      
+     outoforder pkts:           0           outoforder pkts:           0      
+     pushed data pkts:          1           pushed data pkts:          8      
+     SYN/FIN pkts sent:       1/1           SYN/FIN pkts sent:       1/1      
+     req 1323 ws/ts:          Y/N           req 1323 ws/ts:          Y/N      
+     adv wind scale:            7           adv wind scale:            6      
+     req sack:                  Y           req sack:                  Y      
+     sacks sent:               35           sacks sent:                0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:          1388 bytes     mss requested:          1460 bytes
+     max segm size:           130 bytes     max segm size:          1388 bytes
+     min segm size:           130 bytes     min segm size:           205 bytes
+     avg segm size:           129 bytes     avg segm size:          1387 bytes
+     max win adv:          176896 bytes     max win adv:           15680 bytes
+     min win adv:            3200 bytes     min win adv:           15680 bytes
+     zero win adv:              3 times     zero win adv:              0 times
+     avg win adv:           87656 bytes     avg win adv:           15680 bytes
+     max owin:                131 bytes     max owin:             131861 bytes
+     min non-zero owin:         1 bytes     min non-zero owin:         1 bytes
+     avg owin:                  1 bytes     avg owin:              30811 bytes
+     wavg owin:                 2 bytes     wavg owin:             39346 bytes
+     initial window:          130 bytes     initial window:        13880 bytes
+     initial window:            1 pkts      initial window:           10 pkts 
+     ttl stream length:       130 bytes     ttl stream length:   2097473 bytes
+     missed data:               0 bytes     missed data:          202648 bytes
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:        0.000 secs      data xmit time:        1.805 secs 
+     idletime max:           40.9 ms        idletime max:           73.2 ms   
+     throughput:               66 Bps       throughput:           961890 Bps  
+
+     RTT samples:               3           RTT samples:             677      
+     RTT min:                 0.2 ms        RTT min:                30.7 ms   
+     RTT max:                 0.2 ms        RTT max:                52.3 ms   
+     RTT avg:                 0.2 ms        RTT avg:                31.8 ms   
+     RTT stdev:               0.0 ms        RTT stdev:               1.8 ms   
+
+     RTT from 3WHS:           0.2 ms        RTT from 3WHS:          30.9 ms   
+
+     RTT full_sz smpls:         2           RTT full_sz smpls:         2      
+     RTT full_sz min:         0.2 ms        RTT full_sz min:        30.7 ms   
+     RTT full_sz max:         0.2 ms        RTT full_sz max:        30.9 ms   
+     RTT full_sz avg:         0.2 ms        RTT full_sz avg:        30.8 ms   
+     RTT full_sz stdev:       0.0 ms        RTT full_sz stdev:       0.0 ms   
+
+     post-loss acks:            0           post-loss acks:            6      
+	  For the following 5 RTT statistics, only ACKs for
+	  multiply-transmitted segments (ambiguous ACKs) were
+	  considered.  Times are taken from the last instance
+	  of a segment.
+     ambiguous acks:            0           ambiguous acks:            3      
+     RTT min (last):          0.0 ms        RTT min (last):         31.0 ms   
+     RTT max (last):          0.0 ms        RTT max (last):         31.4 ms   
+     RTT avg (last):          0.0 ms        RTT avg (last):         31.1 ms   
+     RTT sdv (last):          0.0 ms        RTT sdv (last):          0.2 ms   
+     segs cum acked:            0           segs cum acked:          682      
+     duplicate acks:            0           duplicate acks:           28      
+     triple dupacks:            0           triple dupacks:            1      
+     max # retrans:             0           max # retrans:             1      
+     min retr time:           0.0 ms        min retr time:          33.0 ms   
+     max retr time:           0.0 ms        max retr time:          55.2 ms   
+     avg retr time:           0.0 ms        avg retr time:          45.3 ms   
+     sdv retr time:           0.0 ms        sdv retr time:          11.7 ms   
+================================
+TCP connection 17:
+	host ag:       192.11.68.196:38344
+	host ah:       10.168.207.109:80
+	complete conn: yes
+	first packet:  Thu Feb  7 10:47:22.588757 2013
+	last packet:   Thu Feb  7 10:47:25.497920 2013
+	elapsed time:  0:00:02.909163
+	total packets: 2279
+	filename:      lengthFixed.pcap
+   ag->ah:			      ah->ag:
+     total packets:           767           total packets:          1512      
+     ack pkts sent:           766           ack pkts sent:          1512      
+     pure acks sent:          764           pure acks sent:            1      
+     sack pkts sent:            0           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         0           max sack blks/ack:         0      
+     unique bytes sent:       130           unique bytes sent:   2093309      
+     actual data pkts:          1           actual data pkts:       1509      
+     actual data bytes:       130           actual data bytes:   2093309      
+     rexmt data pkts:           0           rexmt data pkts:           0      
+     rexmt data bytes:          0           rexmt data bytes:          0      
+     zwnd probe pkts:           0           zwnd probe pkts:           0      
+     zwnd probe bytes:          0           zwnd probe bytes:          0      
+     outoforder pkts:           0           outoforder pkts:           0      
+     pushed data pkts:          1           pushed data pkts:         30      
+     SYN/FIN pkts sent:       1/1           SYN/FIN pkts sent:       1/1      
+     req 1323 ws/ts:          Y/N           req 1323 ws/ts:          Y/N      
+     adv wind scale:            0           adv wind scale:            6      
+     req sack:                  Y           req sack:                  Y      
+     sacks sent:                0           sacks sent:                0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:          1388 bytes     mss requested:          1460 bytes
+     max segm size:           130 bytes     max segm size:          1388 bytes
+     min segm size:           130 bytes     min segm size:           205 bytes
+     avg segm size:           129 bytes     avg segm size:          1387 bytes
+     max win adv:           65535 bytes     max win adv:           15680 bytes
+     min win adv:           65535 bytes     min win adv:           15680 bytes
+     zero win adv:              0 times     zero win adv:              0 times
+     avg win adv:           65535 bytes     avg win adv:           15680 bytes
+     max owin:                131 bytes     max owin:              65237 bytes
+     min non-zero owin:         1 bytes     min non-zero owin:         1 bytes
+     avg owin:                  1 bytes     avg owin:              49031 bytes
+     wavg owin:                 1 bytes     wavg owin:             53725 bytes
+     initial window:          130 bytes     initial window:        13880 bytes
+     initial window:            1 pkts      initial window:           10 pkts 
+     ttl stream length:       130 bytes     ttl stream length:   2097473 bytes
+     missed data:               0 bytes     missed data:            4164 bytes
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:        0.000 secs      data xmit time:        2.714 secs 
+     idletime max:           64.1 ms        idletime max:           71.3 ms   
+     throughput:               45 Bps       throughput:           719557 Bps  
+
+     RTT samples:               3           RTT samples:             762      
+     RTT min:                 0.1 ms        RTT min:                30.9 ms   
+     RTT max:                 0.2 ms        RTT max:                95.7 ms   
+     RTT avg:                 0.2 ms        RTT avg:                69.9 ms   
+     RTT stdev:               0.0 ms        RTT stdev:               8.7 ms   
+
+     RTT from 3WHS:           0.2 ms        RTT from 3WHS:          63.9 ms   
+
+     RTT full_sz smpls:         2           RTT full_sz smpls:         2      
+     RTT full_sz min:         0.1 ms        RTT full_sz min:        57.8 ms   
+     RTT full_sz max:         0.2 ms        RTT full_sz max:        63.9 ms   
+     RTT full_sz avg:         0.2 ms        RTT full_sz avg:        60.9 ms   
+     RTT full_sz stdev:       0.0 ms        RTT full_sz stdev:       0.0 ms   
+
+     post-loss acks:            0           post-loss acks:            0      
+     segs cum acked:            0           segs cum acked:          749      
+     duplicate acks:            0           duplicate acks:            2      
+     triple dupacks:            0           triple dupacks:            0      
+     max # retrans:             0           max # retrans:             0      
+     min retr time:           0.0 ms        min retr time:           0.0 ms   
+     max retr time:           0.0 ms        max retr time:           0.0 ms   
+     avg retr time:           0.0 ms        avg retr time:           0.0 ms   
+     sdv retr time:           0.0 ms        sdv retr time:           0.0 ms   
+================================
+TCP connection 18:
+	host ai:       192.11.68.196:38356
+	host aj:       10.168.207.106:80
+	complete conn: yes
+	first packet:  Thu Feb  7 10:47:26.201709 2013
+	last packet:   Thu Feb  7 10:47:26.555049 2013
+	elapsed time:  0:00:00.353340
+	total packets: 118
+	filename:      lengthFixed.pcap
+   ai->aj:			      aj->ai:
+     total packets:            42           total packets:            76      
+     ack pkts sent:            41           ack pkts sent:            76      
+     pure acks sent:           39           pure acks sent:            0      
+     sack pkts sent:            0           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         0           max sack blks/ack:         0      
+     unique bytes sent:       132           unique bytes sent:    102650      
+     actual data pkts:          1           actual data pkts:         74      
+     actual data bytes:       132           actual data bytes:    102650      
+     rexmt data pkts:           0           rexmt data pkts:           0      
+     rexmt data bytes:          0           rexmt data bytes:          0      
+     zwnd probe pkts:           0           zwnd probe pkts:           0      
+     zwnd probe bytes:          0           zwnd probe bytes:          0      
+     outoforder pkts:           0           outoforder pkts:           0      
+     pushed data pkts:          1           pushed data pkts:          1      
+     SYN/FIN pkts sent:       1/1           SYN/FIN pkts sent:       1/1      
+     req 1323 ws/ts:          Y/N           req 1323 ws/ts:          Y/N      
+     adv wind scale:            7           adv wind scale:            8      
+     req sack:                  Y           req sack:                  Y      
+     sacks sent:                0           sacks sent:                0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:          1388 bytes     mss requested:          1460 bytes
+     max segm size:           132 bytes     max segm size:          1388 bytes
+     min segm size:           132 bytes     min segm size:          1326 bytes
+     avg segm size:           131 bytes     avg segm size:          1387 bytes
+     max win adv:          110464 bytes     max win adv:           66560 bytes
+     min win adv:           66048 bytes     min win adv:           66560 bytes
+     zero win adv:              0 times     zero win adv:              0 times
+     avg win adv:           83203 bytes     avg win adv:           66560 bytes
+     max owin:                133 bytes     max owin:              44417 bytes
+     min non-zero owin:         1 bytes     min non-zero owin:         1 bytes
+     avg owin:                  4 bytes     avg owin:              14638 bytes
+     wavg owin:                11 bytes     wavg owin:             11962 bytes
+     initial window:          132 bytes     initial window:         2776 bytes
+     initial window:            1 pkts      initial window:            2 pkts 
+     ttl stream length:       132 bytes     ttl stream length:    102650 bytes
+     missed data:               0 bytes     missed data:               0 bytes
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:        0.000 secs      data xmit time:        0.158 secs 
+     idletime max:           60.2 ms        idletime max:           91.9 ms   
+     throughput:              374 Bps       throughput:           290513 Bps  
+
+     RTT samples:               3           RTT samples:              39      
+     RTT min:                 0.3 ms        RTT min:                30.7 ms   
+     RTT max:                 0.8 ms        RTT max:                31.5 ms   
+     RTT avg:                 0.5 ms        RTT avg:                31.2 ms   
+     RTT stdev:               0.3 ms        RTT stdev:               0.2 ms   
+
+     RTT from 3WHS:           0.3 ms        RTT from 3WHS:          30.9 ms   
+
+     RTT full_sz smpls:         2           RTT full_sz smpls:         2      
+     RTT full_sz min:         0.3 ms        RTT full_sz min:        30.7 ms   
+     RTT full_sz max:         0.5 ms        RTT full_sz max:        30.9 ms   
+     RTT full_sz avg:         0.4 ms        RTT full_sz avg:        30.8 ms   
+     RTT full_sz stdev:       0.0 ms        RTT full_sz stdev:       0.0 ms   
+
+     post-loss acks:            0           post-loss acks:            0      
+     segs cum acked:            0           segs cum acked:           37      
+     duplicate acks:            0           duplicate acks:            0      
+     triple dupacks:            0           triple dupacks:            0      
+     max # retrans:             0           max # retrans:             0      
+     min retr time:           0.0 ms        min retr time:           0.0 ms   
+     max retr time:           0.0 ms        max retr time:           0.0 ms   
+     avg retr time:           0.0 ms        avg retr time:           0.0 ms   
+     sdv retr time:           0.0 ms        sdv retr time:           0.0 ms   
+================================
+TCP connection 19:
+	host ak:       192.11.68.196:38357
+	host al:       10.168.207.107:80
+	complete conn: yes
+	first packet:  Thu Feb  7 10:47:27.271522 2013
+	last packet:   Thu Feb  7 10:47:27.787837 2013
+	elapsed time:  0:00:00.516314
+	total packets: 118
+	filename:      lengthFixed.pcap
+   ak->al:			      al->ak:
+     total packets:            42           total packets:            76      
+     ack pkts sent:            41           ack pkts sent:            76      
+     pure acks sent:           39           pure acks sent:            0      
+     sack pkts sent:            0           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         0           max sack blks/ack:         0      
+     unique bytes sent:       132           unique bytes sent:    102650      
+     actual data pkts:          1           actual data pkts:         74      
+     actual data bytes:       132           actual data bytes:    102650      
+     rexmt data pkts:           0           rexmt data pkts:           0      
+     rexmt data bytes:          0           rexmt data bytes:          0      
+     zwnd probe pkts:           0           zwnd probe pkts:           0      
+     zwnd probe bytes:          0           zwnd probe bytes:          0      
+     outoforder pkts:           0           outoforder pkts:           0      
+     pushed data pkts:          1           pushed data pkts:          1      
+     SYN/FIN pkts sent:       1/1           SYN/FIN pkts sent:       1/1      
+     req 1323 ws/ts:          Y/N           req 1323 ws/ts:          Y/N      
+     adv wind scale:            0           adv wind scale:            8      
+     req sack:                  Y           req sack:                  Y      
+     sacks sent:                0           sacks sent:                0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:          1388 bytes     mss requested:          1460 bytes
+     max segm size:           132 bytes     max segm size:          1388 bytes
+     min segm size:           132 bytes     min segm size:          1326 bytes
+     avg segm size:           131 bytes     avg segm size:          1387 bytes
+     max win adv:           65535 bytes     max win adv:           66560 bytes
+     min win adv:           65535 bytes     min win adv:           66560 bytes
+     zero win adv:              0 times     zero win adv:              0 times
+     avg win adv:           65535 bytes     avg win adv:           66560 bytes
+     max owin:                133 bytes     max owin:              49969 bytes
+     min non-zero owin:         1 bytes     min non-zero owin:         1 bytes
+     avg owin:                  4 bytes     avg owin:              24706 bytes
+     wavg owin:                15 bytes     wavg owin:             17489 bytes
+     initial window:          132 bytes     initial window:         2776 bytes
+     initial window:            1 pkts      initial window:            2 pkts 
+     ttl stream length:       132 bytes     ttl stream length:    102650 bytes
+     missed data:               0 bytes     missed data:               0 bytes
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:        0.000 secs      data xmit time:        0.320 secs 
+     idletime max:           64.8 ms        idletime max:           72.8 ms   
+     throughput:              256 Bps       throughput:           198813 Bps  
+
+     RTT samples:               3           RTT samples:              39      
+     RTT min:                 0.2 ms        RTT min:                56.2 ms   
+     RTT max:                 0.5 ms        RTT max:                80.7 ms   
+     RTT avg:                 0.3 ms        RTT avg:                67.9 ms   
+     RTT stdev:               0.2 ms        RTT stdev:               6.5 ms   
+
+     RTT from 3WHS:           0.3 ms        RTT from 3WHS:          56.2 ms   
+
+     RTT full_sz smpls:         2           RTT full_sz smpls:         2      
+     RTT full_sz min:         0.2 ms        RTT full_sz min:        56.2 ms   
+     RTT full_sz max:         0.3 ms        RTT full_sz max:        58.4 ms   
+     RTT full_sz avg:         0.3 ms        RTT full_sz avg:        57.3 ms   
+     RTT full_sz stdev:       0.0 ms        RTT full_sz stdev:       0.0 ms   
+
+     post-loss acks:            0           post-loss acks:            0      
+     segs cum acked:            0           segs cum acked:           37      
+     duplicate acks:            0           duplicate acks:            1      
+     triple dupacks:            0           triple dupacks:            0      
+     max # retrans:             0           max # retrans:             0      
+     min retr time:           0.0 ms        min retr time:           0.0 ms   
+     max retr time:           0.0 ms        max retr time:           0.0 ms   
+     avg retr time:           0.0 ms        avg retr time:           0.0 ms   
+     sdv retr time:           0.0 ms        sdv retr time:           0.0 ms   
+================================
+TCP connection 20:
+	host am:       192.11.68.196:38361
+	host an:       10.168.207.108:80
+	complete conn: yes
+	first packet:  Thu Feb  7 10:47:28.479739 2013
+	last packet:   Thu Feb  7 10:47:28.760412 2013
+	elapsed time:  0:00:00.280673
+	total packets: 122
+	filename:      lengthFixed.pcap
+   am->an:			      an->am:
+     total packets:            44           total packets:            78      
+     ack pkts sent:            43           ack pkts sent:            78      
+     pure acks sent:           41           pure acks sent:            1      
+     sack pkts sent:            0           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         0           max sack blks/ack:         0      
+     unique bytes sent:       132           unique bytes sent:    102719      
+     actual data pkts:          1           actual data pkts:         75      
+     actual data bytes:       132           actual data bytes:    102719      
+     rexmt data pkts:           0           rexmt data pkts:           0      
+     rexmt data bytes:          0           rexmt data bytes:          0      
+     zwnd probe pkts:           0           zwnd probe pkts:           0      
+     zwnd probe bytes:          0           zwnd probe bytes:          0      
+     outoforder pkts:           0           outoforder pkts:           0      
+     pushed data pkts:          1           pushed data pkts:          1      
+     SYN/FIN pkts sent:       1/1           SYN/FIN pkts sent:       1/1      
+     req 1323 ws/ts:          Y/N           req 1323 ws/ts:          Y/N      
+     adv wind scale:            7           adv wind scale:            6      
+     req sack:                  Y           req sack:                  Y      
+     sacks sent:                0           sacks sent:                0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:          1388 bytes     mss requested:          1460 bytes
+     max segm size:           132 bytes     max segm size:          1388 bytes
+     min segm size:           132 bytes     min segm size:             7 bytes
+     avg segm size:           131 bytes     avg segm size:          1369 bytes
+     max win adv:          203008 bytes     max win adv:           15680 bytes
+     min win adv:           48000 bytes     min win adv:           15680 bytes
+     zero win adv:              0 times     zero win adv:              0 times
+     avg win adv:           97943 bytes     avg win adv:           15680 bytes
+     max owin:                133 bytes     max owin:              43036 bytes
+     min non-zero owin:         1 bytes     min non-zero owin:         1 bytes
+     avg owin:                  4 bytes     avg owin:              17756 bytes
+     wavg owin:                14 bytes     wavg owin:             20728 bytes
+     initial window:          132 bytes     initial window:        13880 bytes
+     initial window:            1 pkts      initial window:           10 pkts 
+     ttl stream length:       132 bytes     ttl stream length:    102719 bytes
+     missed data:               0 bytes     missed data:               0 bytes
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:        0.000 secs      data xmit time:        0.095 secs 
+     idletime max:           55.2 ms        idletime max:           87.3 ms   
+     throughput:              470 Bps       throughput:           365974 Bps  
+
+     RTT samples:               3           RTT samples:              41      
+     RTT min:                 0.2 ms        RTT min:                30.9 ms   
+     RTT max:                 0.4 ms        RTT max:                39.2 ms   
+     RTT avg:                 0.3 ms        RTT avg:                31.7 ms   
+     RTT stdev:               0.1 ms        RTT stdev:               1.6 ms   
+
+     RTT from 3WHS:           0.2 ms        RTT from 3WHS:          31.0 ms   
+
+     RTT full_sz smpls:         2           RTT full_sz smpls:         2      
+     RTT full_sz min:         0.2 ms        RTT full_sz min:        30.9 ms   
+     RTT full_sz max:         0.4 ms        RTT full_sz max:        31.0 ms   
+     RTT full_sz avg:         0.3 ms        RTT full_sz avg:        30.9 ms   
+     RTT full_sz stdev:       0.0 ms        RTT full_sz stdev:       0.0 ms   
+
+     post-loss acks:            0           post-loss acks:            0      
+     segs cum acked:            0           segs cum acked:           36      
+     duplicate acks:            0           duplicate acks:            0      
+     triple dupacks:            0           triple dupacks:            0      
+     max # retrans:             0           max # retrans:             0      
+     min retr time:           0.0 ms        min retr time:           0.0 ms   
+     max retr time:           0.0 ms        max retr time:           0.0 ms   
+     avg retr time:           0.0 ms        avg retr time:           0.0 ms   
+     sdv retr time:           0.0 ms        sdv retr time:           0.0 ms   
+================================
+TCP connection 21:
+	host ao:       192.11.68.196:38362
+	host ap:       10.168.207.109:80
+	complete conn: yes
+	first packet:  Thu Feb  7 10:47:29.488639 2013
+	last packet:   Thu Feb  7 10:47:29.933007 2013
+	elapsed time:  0:00:00.444368
+	total packets: 120
+	filename:      lengthFixed.pcap
+   ao->ap:			      ap->ao:
+     total packets:            42           total packets:            78      
+     ack pkts sent:            41           ack pkts sent:            78      
+     pure acks sent:           39           pure acks sent:            1      
+     sack pkts sent:            0           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         0           max sack blks/ack:         0      
+     unique bytes sent:       132           unique bytes sent:    102719      
+     actual data pkts:          1           actual data pkts:         75      
+     actual data bytes:       132           actual data bytes:    102719      
+     rexmt data pkts:           0           rexmt data pkts:           0      
+     rexmt data bytes:          0           rexmt data bytes:          0      
+     zwnd probe pkts:           0           zwnd probe pkts:           0      
+     zwnd probe bytes:          0           zwnd probe bytes:          0      
+     outoforder pkts:           0           outoforder pkts:           0      
+     pushed data pkts:          1           pushed data pkts:          2      
+     SYN/FIN pkts sent:       1/1           SYN/FIN pkts sent:       1/1      
+     req 1323 ws/ts:          Y/N           req 1323 ws/ts:          Y/N      
+     adv wind scale:            0           adv wind scale:            6      
+     req sack:                  Y           req sack:                  Y      
+     sacks sent:                0           sacks sent:                0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:          1388 bytes     mss requested:          1460 bytes
+     max segm size:           132 bytes     max segm size:          1388 bytes
+     min segm size:           132 bytes     min segm size:             7 bytes
+     avg segm size:           131 bytes     avg segm size:          1369 bytes
+     max win adv:           65535 bytes     max win adv:           15680 bytes
+     min win adv:           65528 bytes     min win adv:           15680 bytes
+     zero win adv:              0 times     zero win adv:              0 times
+     avg win adv:           65534 bytes     avg win adv:           15680 bytes
+     max owin:                133 bytes     max owin:              40253 bytes
+     min non-zero owin:         1 bytes     min non-zero owin:         1 bytes
+     avg owin:                  4 bytes     avg owin:              20064 bytes
+     wavg owin:                15 bytes     wavg owin:             18943 bytes
+     initial window:          132 bytes     initial window:        13880 bytes
+     initial window:            1 pkts      initial window:           10 pkts 
+     ttl stream length:       132 bytes     ttl stream length:    102719 bytes
+     missed data:               0 bytes     missed data:               0 bytes
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:        0.000 secs      data xmit time:        0.243 secs 
+     idletime max:           64.5 ms        idletime max:           72.6 ms   
+     throughput:              297 Bps       throughput:           231158 Bps  
+
+     RTT samples:               3           RTT samples:              40      
+     RTT min:                 0.2 ms        RTT min:                56.8 ms   
+     RTT max:                 0.2 ms        RTT max:                85.0 ms   
+     RTT avg:                 0.2 ms        RTT avg:                70.3 ms   
+     RTT stdev:               0.0 ms        RTT stdev:               8.8 ms   
+
+     RTT from 3WHS:           0.2 ms        RTT from 3WHS:          64.4 ms   
+
+     RTT full_sz smpls:         2           RTT full_sz smpls:         2      
+     RTT full_sz min:         0.2 ms        RTT full_sz min:        56.8 ms   
+     RTT full_sz max:         0.2 ms        RTT full_sz max:        64.4 ms   
+     RTT full_sz avg:         0.2 ms        RTT full_sz avg:        60.6 ms   
+     RTT full_sz stdev:       0.0 ms        RTT full_sz stdev:       0.0 ms   
+
+     post-loss acks:            0           post-loss acks:            0      
+     segs cum acked:            0           segs cum acked:           37      
+     duplicate acks:            0           duplicate acks:            0      
+     triple dupacks:            0           triple dupacks:            0      
+     max # retrans:             0           max # retrans:             0      
+     min retr time:           0.0 ms        min retr time:           0.0 ms   
+     max retr time:           0.0 ms        max retr time:           0.0 ms   
+     avg retr time:           0.0 ms        avg retr time:           0.0 ms   
+     sdv retr time:           0.0 ms        sdv retr time:           0.0 ms   
+================================
+TCP connection 22:
+	host aq:       192.11.68.196:38371
+	host ar:       10.168.207.106:80
+	complete conn: yes
+	first packet:  Thu Feb  7 10:47:30.608585 2013
+	last packet:   Thu Feb  7 10:47:31.275998 2013
+	elapsed time:  0:00:00.667413
+	total packets: 528
+	filename:      lengthFixed.pcap
+   aq->ar:			      ar->aq:
+     total packets:           189           total packets:           339      
+     ack pkts sent:           188           ack pkts sent:           339      
+     pure acks sent:          186           pure acks sent:            0      
+     sack pkts sent:            0           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         0           max sack blks/ack:         0      
+     unique bytes sent:       132           unique bytes sent:    464458      
+     actual data pkts:          1           actual data pkts:        337      
+     actual data bytes:       132           actual data bytes:    464458      
+     rexmt data pkts:           0           rexmt data pkts:           0      
+     rexmt data bytes:          0           rexmt data bytes:          0      
+     zwnd probe pkts:           0           zwnd probe pkts:           0      
+     zwnd probe bytes:          0           zwnd probe bytes:          0      
+     outoforder pkts:           0           outoforder pkts:           0      
+     pushed data pkts:          1           pushed data pkts:          6      
+     SYN/FIN pkts sent:       1/1           SYN/FIN pkts sent:       1/1      
+     req 1323 ws/ts:          Y/N           req 1323 ws/ts:          Y/N      
+     adv wind scale:            7           adv wind scale:            8      
+     req sack:                  Y           req sack:                  Y      
+     sacks sent:                0           sacks sent:                0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:          1388 bytes     mss requested:          1460 bytes
+     max segm size:           132 bytes     max segm size:          1388 bytes
+     min segm size:           132 bytes     min segm size:           300 bytes
+     avg segm size:           131 bytes     avg segm size:          1378 bytes
+     max win adv:          133632 bytes     max win adv:           66560 bytes
+     min win adv:           13184 bytes     min win adv:           66560 bytes
+     zero win adv:              0 times     zero win adv:              0 times
+     avg win adv:           73689 bytes     avg win adv:           66560 bytes
+     max owin:                133 bytes     max owin:              89733 bytes
+     min non-zero owin:         1 bytes     min non-zero owin:         1 bytes
+     avg owin:                  1 bytes     avg owin:              35523 bytes
+     wavg owin:                 5 bytes     wavg owin:             28372 bytes
+     initial window:          132 bytes     initial window:         2776 bytes
+     initial window:            1 pkts      initial window:            2 pkts 
+     ttl stream length:       132 bytes     ttl stream length:    512250 bytes
+     missed data:               0 bytes     missed data:           47792 bytes
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:        0.000 secs      data xmit time:        0.413 secs 
+     idletime max:          124.2 ms        idletime max:          155.5 ms   
+     throughput:              198 Bps       throughput:           695908 Bps  
+
+     RTT samples:               3           RTT samples:             174      
+     RTT min:                 0.2 ms        RTT min:                30.7 ms   
+     RTT max:                 0.9 ms        RTT max:                43.3 ms   
+     RTT avg:                 0.5 ms        RTT avg:                31.6 ms   
+     RTT stdev:               0.4 ms        RTT stdev:               1.4 ms   
+
+     RTT from 3WHS:           0.2 ms        RTT from 3WHS:          30.9 ms   
+
+     RTT full_sz smpls:         2           RTT full_sz smpls:         2      
+     RTT full_sz min:         0.2 ms        RTT full_sz min:        30.7 ms   
+     RTT full_sz max:         0.3 ms        RTT full_sz max:        30.9 ms   
+     RTT full_sz avg:         0.3 ms        RTT full_sz avg:        30.8 ms   
+     RTT full_sz stdev:       0.0 ms        RTT full_sz stdev:       0.0 ms   
+
+     post-loss acks:            0           post-loss acks:            0      
+     segs cum acked:            0           segs cum acked:          165      
+     duplicate acks:            0           duplicate acks:            0      
+     triple dupacks:            0           triple dupacks:            0      
+     max # retrans:             0           max # retrans:             0      
+     min retr time:           0.0 ms        min retr time:           0.0 ms   
+     max retr time:           0.0 ms        max retr time:           0.0 ms   
+     avg retr time:           0.0 ms        avg retr time:           0.0 ms   
+     sdv retr time:           0.0 ms        sdv retr time:           0.0 ms   
+================================
+TCP connection 23:
+	host as:       192.11.68.196:38397
+	host at:       10.168.207.107:80
+	complete conn: yes
+	first packet:  Thu Feb  7 10:47:31.958575 2013
+	last packet:   Thu Feb  7 10:47:32.938027 2013
+	elapsed time:  0:00:00.979452
+	total packets: 568
+	filename:      lengthFixed.pcap
+   as->at:			      at->as:
+     total packets:           192           total packets:           376      
+     ack pkts sent:           191           ack pkts sent:           376      
+     pure acks sent:          189           pure acks sent:            0      
+     sack pkts sent:            0           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         0           max sack blks/ack:         0      
+     unique bytes sent:       132           unique bytes sent:    512250      
+     actual data pkts:          1           actual data pkts:        374      
+     actual data bytes:       132           actual data bytes:    512250      
+     rexmt data pkts:           0           rexmt data pkts:           0      
+     rexmt data bytes:          0           rexmt data bytes:          0      
+     zwnd probe pkts:           0           zwnd probe pkts:           0      
+     zwnd probe bytes:          0           zwnd probe bytes:          0      
+     outoforder pkts:           0           outoforder pkts:           0      
+     pushed data pkts:          1           pushed data pkts:          8      
+     SYN/FIN pkts sent:       1/1           SYN/FIN pkts sent:       1/1      
+     req 1323 ws/ts:          Y/N           req 1323 ws/ts:          Y/N      
+     adv wind scale:            0           adv wind scale:            8      
+     req sack:                  Y           req sack:                  Y      
+     sacks sent:                0           sacks sent:                0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:          1388 bytes     mss requested:          1460 bytes
+     max segm size:           132 bytes     max segm size:          1388 bytes
+     min segm size:           132 bytes     min segm size:           300 bytes
+     avg segm size:           131 bytes     avg segm size:          1369 bytes
+     max win adv:           65535 bytes     max win adv:           66560 bytes
+     min win adv:           65535 bytes     min win adv:           66560 bytes
+     zero win adv:              0 times     zero win adv:              0 times
+     avg win adv:           65535 bytes     avg win adv:           66560 bytes
+     max owin:                133 bytes     max owin:              64449 bytes
+     min non-zero owin:         1 bytes     min non-zero owin:         1 bytes
+     avg owin:                  1 bytes     avg owin:              51541 bytes
+     wavg owin:                 8 bytes     wavg owin:             39301 bytes
+     initial window:          132 bytes     initial window:         2776 bytes
+     initial window:            1 pkts      initial window:            2 pkts 
+     ttl stream length:       132 bytes     ttl stream length:    512250 bytes
+     missed data:               0 bytes     missed data:               0 bytes
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:        0.000 secs      data xmit time:        0.779 secs 
+     idletime max:           65.5 ms        idletime max:           74.0 ms   
+     throughput:              135 Bps       throughput:           522997 Bps  
+
+     RTT samples:               3           RTT samples:             189      
+     RTT min:                 0.3 ms        RTT min:                56.2 ms   
+     RTT max:                 0.9 ms        RTT max:               105.6 ms   
+     RTT avg:                 0.5 ms        RTT avg:                70.5 ms   
+     RTT stdev:               0.4 ms        RTT stdev:               8.2 ms   
+
+     RTT from 3WHS:           0.3 ms        RTT from 3WHS:          59.1 ms   
+
+     RTT full_sz smpls:         2           RTT full_sz smpls:         2      
+     RTT full_sz min:         0.3 ms        RTT full_sz min:        57.6 ms   
+     RTT full_sz max:         0.3 ms        RTT full_sz max:        59.1 ms   
+     RTT full_sz avg:         0.3 ms        RTT full_sz avg:        58.4 ms   
+     RTT full_sz stdev:       0.0 ms        RTT full_sz stdev:       0.0 ms   
+
+     post-loss acks:            0           post-loss acks:            0      
+     segs cum acked:            0           segs cum acked:          187      
+     duplicate acks:            0           duplicate acks:            1      
+     triple dupacks:            0           triple dupacks:            0      
+     max # retrans:             0           max # retrans:             0      
+     min retr time:           0.0 ms        min retr time:           0.0 ms   
+     max retr time:           0.0 ms        max retr time:           0.0 ms   
+     avg retr time:           0.0 ms        avg retr time:           0.0 ms   
+     sdv retr time:           0.0 ms        sdv retr time:           0.0 ms   
+================================
+TCP connection 24:
+	host au:       192.11.68.196:38430
+	host av:       10.168.207.108:80
+	complete conn: yes
+	first packet:  Thu Feb  7 10:47:33.626642 2013
+	last packet:   Thu Feb  7 10:47:34.238088 2013
+	elapsed time:  0:00:00.611446
+	total packets: 560
+	filename:      lengthFixed.pcap
+   au->av:			      av->au:
+     total packets:           194           total packets:           366      
+     ack pkts sent:           193           ack pkts sent:           366      
+     pure acks sent:          191           pure acks sent:            1      
+     sack pkts sent:            0           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         0           max sack blks/ack:         0      
+     unique bytes sent:       132           unique bytes sent:    502603      
+     actual data pkts:          1           actual data pkts:        363      
+     actual data bytes:       132           actual data bytes:    502603      
+     rexmt data pkts:           0           rexmt data pkts:           0      
+     rexmt data bytes:          0           rexmt data bytes:          0      
+     zwnd probe pkts:           0           zwnd probe pkts:           0      
+     zwnd probe bytes:          0           zwnd probe bytes:          0      
+     outoforder pkts:           0           outoforder pkts:           0      
+     pushed data pkts:          1           pushed data pkts:          3      
+     SYN/FIN pkts sent:       1/1           SYN/FIN pkts sent:       1/1      
+     req 1323 ws/ts:          Y/N           req 1323 ws/ts:          Y/N      
+     adv wind scale:            7           adv wind scale:            6      
+     req sack:                  Y           req sack:                  Y      
+     sacks sent:                0           sacks sent:                0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:          1388 bytes     mss requested:          1460 bytes
+     max segm size:           132 bytes     max segm size:          1388 bytes
+     min segm size:           132 bytes     min segm size:           147 bytes
+     avg segm size:           131 bytes     avg segm size:          1384 bytes
+     max win adv:          184192 bytes     max win adv:           15680 bytes
+     min win adv:           25728 bytes     min win adv:           15680 bytes
+     zero win adv:              0 times     zero win adv:              0 times
+     avg win adv:           87753 bytes     avg win adv:           15680 bytes
+     max owin:                133 bytes     max owin:              97161 bytes
+     min non-zero owin:         1 bytes     min non-zero owin:         1 bytes
+     avg owin:                  1 bytes     avg owin:              42398 bytes
+     wavg owin:                 6 bytes     wavg owin:             34200 bytes
+     initial window:          132 bytes     initial window:        13880 bytes
+     initial window:            1 pkts      initial window:           10 pkts 
+     ttl stream length:       132 bytes     ttl stream length:    512319 bytes
+     missed data:               0 bytes     missed data:            9716 bytes
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:        0.000 secs      data xmit time:        0.342 secs 
+     idletime max:          134.5 ms        idletime max:          165.7 ms   
+     throughput:              216 Bps       throughput:           821991 Bps  
+
+     RTT samples:               3           RTT samples:             187      
+     RTT min:                 0.2 ms        RTT min:                30.8 ms   
+     RTT max:                 0.2 ms        RTT max:                49.5 ms   
+     RTT avg:                 0.2 ms        RTT avg:                31.7 ms   
+     RTT stdev:               0.0 ms        RTT stdev:               2.0 ms   
+
+     RTT from 3WHS:           0.2 ms        RTT from 3WHS:          30.9 ms   
+
+     RTT full_sz smpls:         2           RTT full_sz smpls:         2      
+     RTT full_sz min:         0.2 ms        RTT full_sz min:        30.9 ms   
+     RTT full_sz max:         0.2 ms        RTT full_sz max:        30.9 ms   
+     RTT full_sz avg:         0.2 ms        RTT full_sz avg:        30.9 ms   
+     RTT full_sz stdev:       0.0 ms        RTT full_sz stdev:       0.0 ms   
+
+     post-loss acks:            0           post-loss acks:            0      
+     segs cum acked:            0           segs cum acked:          178      
+     duplicate acks:            0           duplicate acks:            0      
+     triple dupacks:            0           triple dupacks:            0      
+     max # retrans:             0           max # retrans:             0      
+     min retr time:           0.0 ms        min retr time:           0.0 ms   
+     max retr time:           0.0 ms        max retr time:           0.0 ms   
+     avg retr time:           0.0 ms        avg retr time:           0.0 ms   
+     sdv retr time:           0.0 ms        sdv retr time:           0.0 ms   
+================================
+TCP connection 25:
+	host aw:       192.11.68.196:38435
+	host ax:       10.168.207.109:80
+	complete conn: yes
+	first packet:  Thu Feb  7 10:47:34.973720 2013
+	last packet:   Thu Feb  7 10:47:35.943580 2013
+	elapsed time:  0:00:00.969860
+	total packets: 563
+	filename:      lengthFixed.pcap
+   aw->ax:			      ax->aw:
+     total packets:           190           total packets:           373      
+     ack pkts sent:           189           ack pkts sent:           373      
+     pure acks sent:          187           pure acks sent:            1      
+     sack pkts sent:            0           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         0           max sack blks/ack:         0      
+     unique bytes sent:       132           unique bytes sent:    512319      
+     actual data pkts:          1           actual data pkts:        370      
+     actual data bytes:       132           actual data bytes:    512319      
+     rexmt data pkts:           0           rexmt data pkts:           0      
+     rexmt data bytes:          0           rexmt data bytes:          0      
+     zwnd probe pkts:           0           zwnd probe pkts:           0      
+     zwnd probe bytes:          0           zwnd probe bytes:          0      
+     outoforder pkts:           0           outoforder pkts:           0      
+     pushed data pkts:          1           pushed data pkts:          8      
+     SYN/FIN pkts sent:       1/1           SYN/FIN pkts sent:       1/1      
+     req 1323 ws/ts:          Y/N           req 1323 ws/ts:          Y/N      
+     adv wind scale:            0           adv wind scale:            6      
+     req sack:                  Y           req sack:                  Y      
+     sacks sent:                0           sacks sent:                0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:          1388 bytes     mss requested:          1460 bytes
+     max segm size:           132 bytes     max segm size:          1388 bytes
+     min segm size:           132 bytes     min segm size:           147 bytes
+     avg segm size:           131 bytes     avg segm size:          1384 bytes
+     max win adv:           65535 bytes     max win adv:           15680 bytes
+     min win adv:           65535 bytes     min win adv:           15680 bytes
+     zero win adv:              0 times     zero win adv:              0 times
+     avg win adv:           65535 bytes     avg win adv:           15680 bytes
+     max owin:                133 bytes     max owin:              65237 bytes
+     min non-zero owin:         1 bytes     min non-zero owin:         1 bytes
+     avg owin:                  1 bytes     avg owin:              43984 bytes
+     wavg owin:                 8 bytes     wavg owin:             42098 bytes
+     initial window:          132 bytes     initial window:        13880 bytes
+     initial window:            1 pkts      initial window:           10 pkts 
+     ttl stream length:       132 bytes     ttl stream length:    512319 bytes
+     missed data:               0 bytes     missed data:               0 bytes
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:        0.000 secs      data xmit time:        0.778 secs 
+     idletime max:           60.4 ms        idletime max:           67.5 ms   
+     throughput:              136 Bps       throughput:           528240 Bps  
+
+     RTT samples:               3           RTT samples:             187      
+     RTT min:                 0.2 ms        RTT min:                56.0 ms   
+     RTT max:                 0.4 ms        RTT max:               104.1 ms   
+     RTT avg:                 0.2 ms        RTT avg:                70.2 ms   
+     RTT stdev:               0.1 ms        RTT stdev:               9.7 ms   
+
+     RTT from 3WHS:           0.2 ms        RTT from 3WHS:          59.2 ms   
+
+     RTT full_sz smpls:         2           RTT full_sz smpls:         2      
+     RTT full_sz min:         0.2 ms        RTT full_sz min:        57.3 ms   
+     RTT full_sz max:         0.4 ms        RTT full_sz max:        59.2 ms   
+     RTT full_sz avg:         0.3 ms        RTT full_sz avg:        58.3 ms   
+     RTT full_sz stdev:       0.0 ms        RTT full_sz stdev:       0.0 ms   
+
+     post-loss acks:            0           post-loss acks:            0      
+     segs cum acked:            0           segs cum acked:          185      
+     duplicate acks:            0           duplicate acks:            1      
+     triple dupacks:            0           triple dupacks:            0      
+     max # retrans:             0           max # retrans:             0      
+     min retr time:           0.0 ms        min retr time:           0.0 ms   
+     max retr time:           0.0 ms        max retr time:           0.0 ms   
+     avg retr time:           0.0 ms        avg retr time:           0.0 ms   
+     sdv retr time:           0.0 ms        sdv retr time:           0.0 ms   
+================================
+TCP connection 26:
+	host ay:       192.11.68.196:38442
+	host az:       10.168.207.106:80
+	complete conn: yes
+	first packet:  Thu Feb  7 10:47:36.620661 2013
+	last packet:   Thu Feb  7 10:47:37.665265 2013
+	elapsed time:  0:00:01.044604
+	total packets: 1163
+	filename:      lengthFixed.pcap
+   ay->az:			      az->ay:
+     total packets:           431           total packets:           732      
+     ack pkts sent:           430           ack pkts sent:           732      
+     pure acks sent:          428           pure acks sent:            0      
+     sack pkts sent:           59           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         4           max sack blks/ack:         0      
+     unique bytes sent:       130           unique bytes sent:    990718      
+     actual data pkts:          1           actual data pkts:        730      
+     actual data bytes:       130           actual data bytes:    999046      
+     rexmt data pkts:           0           rexmt data pkts:          10      
+     rexmt data bytes:          0           rexmt data bytes:       8328      
+     zwnd probe pkts:           0           zwnd probe pkts:           0      
+     zwnd probe bytes:          0           zwnd probe bytes:          0      
+     outoforder pkts:           0           outoforder pkts:           7      
+     pushed data pkts:          1           pushed data pkts:         14      
+     SYN/FIN pkts sent:       1/1           SYN/FIN pkts sent:       1/1      
+     req 1323 ws/ts:          Y/N           req 1323 ws/ts:          Y/N      
+     adv wind scale:            7           adv wind scale:            8      
+     req sack:                  Y           req sack:                  Y      
+     sacks sent:               59           sacks sent:                0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:          1388 bytes     mss requested:          1460 bytes
+     max segm size:           130 bytes     max segm size:          1388 bytes
+     min segm size:           130 bytes     min segm size:           300 bytes
+     avg segm size:           129 bytes     avg segm size:          1368 bytes
+     max win adv:          157440 bytes     max win adv:           66560 bytes
+     min win adv:           14080 bytes     min win adv:           66560 bytes
+     zero win adv:              0 times     zero win adv:              0 times
+     avg win adv:           95869 bytes     avg win adv:           66560 bytes
+     max owin:                131 bytes     max owin:             115805 bytes
+     min non-zero owin:         1 bytes     min non-zero owin:         1 bytes
+     avg owin:                  1 bytes     avg owin:              35937 bytes
+     wavg owin:                 3 bytes     wavg owin:             40103 bytes
+     initial window:          130 bytes     initial window:         2776 bytes
+     initial window:            1 pkts      initial window:            2 pkts 
+     ttl stream length:       130 bytes     ttl stream length:   1048826 bytes
+     missed data:               0 bytes     missed data:           58108 bytes
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:        0.000 secs      data xmit time:        0.796 secs 
+     idletime max:          111.7 ms        idletime max:          142.9 ms   
+     throughput:              124 Bps       throughput:           948415 Bps  
+
+     RTT samples:               3           RTT samples:             351      
+     RTT min:                 0.2 ms        RTT min:                30.7 ms   
+     RTT max:                 1.0 ms        RTT max:                64.8 ms   
+     RTT avg:                 0.5 ms        RTT avg:                31.9 ms   
+     RTT stdev:               0.4 ms        RTT stdev:               2.5 ms   
+
+     RTT from 3WHS:           0.2 ms        RTT from 3WHS:          30.9 ms   
+
+     RTT full_sz smpls:         2           RTT full_sz smpls:         2      
+     RTT full_sz min:         0.2 ms        RTT full_sz min:        30.8 ms   
+     RTT full_sz max:         0.3 ms        RTT full_sz max:        30.9 ms   
+     RTT full_sz avg:         0.3 ms        RTT full_sz avg:        30.8 ms   
+     RTT full_sz stdev:       0.0 ms        RTT full_sz stdev:       0.0 ms   
+
+     post-loss acks:            0           post-loss acks:            5      
+     segs cum acked:            0           segs cum acked:          366      
+     duplicate acks:            0           duplicate acks:           42      
+     triple dupacks:            0           triple dupacks:            1      
+     max # retrans:             0           max # retrans:             2      
+     min retr time:           0.0 ms        min retr time:           0.0 ms   
+     max retr time:           0.0 ms        max retr time:          64.9 ms   
+     avg retr time:           0.0 ms        avg retr time:          38.9 ms   
+     sdv retr time:           0.0 ms        sdv retr time:          33.5 ms   
+================================
+TCP connection 27:
+	host ba:       192.11.68.196:38451
+	host bb:       10.168.207.107:80
+	complete conn: yes
+	first packet:  Thu Feb  7 10:47:38.361580 2013
+	last packet:   Thu Feb  7 10:47:39.818034 2013
+	elapsed time:  0:00:01.456453
+	total packets: 1161
+	filename:      lengthFixed.pcap
+   ba->bb:			      bb->ba:
+     total packets:           391           total packets:           770      
+     ack pkts sent:           390           ack pkts sent:           770      
+     pure acks sent:          388           pure acks sent:            0      
+     sack pkts sent:            0           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         0           max sack blks/ack:         0      
+     unique bytes sent:       130           unique bytes sent:   1048826      
+     actual data pkts:          1           actual data pkts:        768      
+     actual data bytes:       130           actual data bytes:   1048826      
+     rexmt data pkts:           0           rexmt data pkts:           0      
+     rexmt data bytes:          0           rexmt data bytes:          0      
+     zwnd probe pkts:           0           zwnd probe pkts:           0      
+     zwnd probe bytes:          0           zwnd probe bytes:          0      
+     outoforder pkts:           0           outoforder pkts:           0      
+     pushed data pkts:          1           pushed data pkts:         17      
+     SYN/FIN pkts sent:       1/1           SYN/FIN pkts sent:       1/1      
+     req 1323 ws/ts:          Y/N           req 1323 ws/ts:          Y/N      
+     adv wind scale:            0           adv wind scale:            8      
+     req sack:                  Y           req sack:                  Y      
+     sacks sent:                0           sacks sent:                0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:          1388 bytes     mss requested:          1460 bytes
+     max segm size:           130 bytes     max segm size:          1388 bytes
+     min segm size:           130 bytes     min segm size:           250 bytes
+     avg segm size:           129 bytes     avg segm size:          1365 bytes
+     max win adv:           65535 bytes     max win adv:           66560 bytes
+     min win adv:           64985 bytes     min win adv:           66560 bytes
+     zero win adv:              0 times     zero win adv:              0 times
+     avg win adv:           65530 bytes     avg win adv:           66560 bytes
+     max owin:                131 bytes     max owin:              64449 bytes
+     min non-zero owin:         1 bytes     min non-zero owin:         1 bytes
+     avg owin:                  1 bytes     avg owin:              56206 bytes
+     wavg owin:                 2 bytes     wavg owin:             48748 bytes
+     initial window:          130 bytes     initial window:         2776 bytes
+     initial window:            1 pkts      initial window:            2 pkts 
+     ttl stream length:       130 bytes     ttl stream length:   1048826 bytes
+     missed data:               0 bytes     missed data:               0 bytes
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:        0.000 secs      data xmit time:        1.266 secs 
+     idletime max:           60.1 ms        idletime max:           73.2 ms   
+     throughput:               89 Bps       throughput:           720123 Bps  
+
+     RTT samples:               3           RTT samples:             387      
+     RTT min:                 0.2 ms        RTT min:                31.0 ms   
+     RTT max:                 0.9 ms        RTT max:                85.5 ms   
+     RTT avg:                 0.5 ms        RTT avg:                64.4 ms   
+     RTT stdev:               0.4 ms        RTT stdev:               6.3 ms   
+
+     RTT from 3WHS:           0.2 ms        RTT from 3WHS:          56.1 ms   
+
+     RTT full_sz smpls:         2           RTT full_sz smpls:         2      
+     RTT full_sz min:         0.2 ms        RTT full_sz min:        56.1 ms   
+     RTT full_sz max:         0.2 ms        RTT full_sz max:        59.8 ms   
+     RTT full_sz avg:         0.2 ms        RTT full_sz avg:        57.9 ms   
+     RTT full_sz stdev:       0.0 ms        RTT full_sz stdev:       0.0 ms   
+
+     post-loss acks:            0           post-loss acks:            0      
+     segs cum acked:            0           segs cum acked:          383      
+     duplicate acks:            0           duplicate acks:            2      
+     triple dupacks:            0           triple dupacks:            0      
+     max # retrans:             0           max # retrans:             0      
+     min retr time:           0.0 ms        min retr time:           0.0 ms   
+     max retr time:           0.0 ms        max retr time:           0.0 ms   
+     avg retr time:           0.0 ms        avg retr time:           0.0 ms   
+     sdv retr time:           0.0 ms        sdv retr time:           0.0 ms   
+================================
+TCP connection 28:
+	host bc:       192.11.68.196:38470
+	host bd:       10.168.207.108:80
+	complete conn: yes
+	first packet:  Thu Feb  7 10:47:40.513780 2013
+	last packet:   Thu Feb  7 10:47:41.400426 2013
+	elapsed time:  0:00:00.886646
+	total packets: 1094
+	filename:      lengthFixed.pcap
+   bc->bd:			      bd->bc:
+     total packets:           392           total packets:           702      
+     ack pkts sent:           391           ack pkts sent:           702      
+     pure acks sent:          389           pure acks sent:            1      
+     sack pkts sent:            0           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         0           max sack blks/ack:         0      
+     unique bytes sent:       130           unique bytes sent:    968393      
+     actual data pkts:          1           actual data pkts:        699      
+     actual data bytes:       130           actual data bytes:    969781      
+     rexmt data pkts:           0           rexmt data pkts:           0      
+     rexmt data bytes:          0           rexmt data bytes:          0      
+     zwnd probe pkts:           0           zwnd probe pkts:           1      
+     zwnd probe bytes:          0           zwnd probe bytes:       1388      
+     outoforder pkts:           0           outoforder pkts:           0      
+     pushed data pkts:          1           pushed data pkts:          4      
+     SYN/FIN pkts sent:       1/1           SYN/FIN pkts sent:       1/1      
+     req 1323 ws/ts:          Y/N           req 1323 ws/ts:          Y/N      
+     adv wind scale:            7           adv wind scale:            6      
+     req sack:                  Y           req sack:                  Y      
+     sacks sent:                0           sacks sent:                0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:          1388 bytes     mss requested:          1460 bytes
+     max segm size:           130 bytes     max segm size:          1388 bytes
+     min segm size:           130 bytes     min segm size:           957 bytes
+     avg segm size:           129 bytes     avg segm size:          1387 bytes
+     max win adv:          208128 bytes     max win adv:           15680 bytes
+     min win adv:            4864 bytes     min win adv:           15680 bytes
+     zero win adv:              2 times     zero win adv:              0 times
+     avg win adv:           83542 bytes     avg win adv:           15680 bytes
+     max owin:                131 bytes     max owin:             130473 bytes
+     min non-zero owin:         1 bytes     min non-zero owin:         1 bytes
+     avg owin:                  1 bytes     avg owin:              43741 bytes
+     wavg owin:                 4 bytes     wavg owin:             48482 bytes
+     initial window:          130 bytes     initial window:        13880 bytes
+     initial window:            1 pkts      initial window:           10 pkts 
+     ttl stream length:       130 bytes     ttl stream length:   1048897 bytes
+     missed data:               0 bytes     missed data:           80504 bytes
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:        0.000 secs      data xmit time:        0.683 secs 
+     idletime max:           73.9 ms        idletime max:          105.8 ms   
+     throughput:              147 Bps       throughput:          1092198 Bps  
+
+     RTT samples:               3           RTT samples:             353      
+     RTT min:                 0.2 ms        RTT min:                30.8 ms   
+     RTT max:                 0.4 ms        RTT max:                48.1 ms   
+     RTT avg:                 0.3 ms        RTT avg:                31.8 ms   
+     RTT stdev:               0.1 ms        RTT stdev:               1.7 ms   
+
+     RTT from 3WHS:           0.2 ms        RTT from 3WHS:          30.9 ms   
+
+     RTT full_sz smpls:         2           RTT full_sz smpls:         2      
+     RTT full_sz min:         0.2 ms        RTT full_sz min:        30.8 ms   
+     RTT full_sz max:         0.4 ms        RTT full_sz max:        30.9 ms   
+     RTT full_sz avg:         0.3 ms        RTT full_sz avg:        30.9 ms   
+     RTT full_sz stdev:       0.0 ms        RTT full_sz stdev:       0.0 ms   
+
+     post-loss acks:            0           post-loss acks:            0      
+     segs cum acked:            0           segs cum acked:          347      
+     duplicate acks:            0           duplicate acks:            0      
+     triple dupacks:            0           triple dupacks:            0      
+     max # retrans:             0           max # retrans:             0      
+     min retr time:           0.0 ms        min retr time:           0.0 ms   
+     max retr time:           0.0 ms        max retr time:           0.0 ms   
+     avg retr time:           0.0 ms        avg retr time:           0.0 ms   
+     sdv retr time:           0.0 ms        sdv retr time:           0.0 ms   
+================================
+TCP connection 29:
+	host be:       192.11.68.196:38471
+	host bf:       10.168.207.109:80
+	complete conn: yes
+	first packet:  Thu Feb  7 10:47:42.092008 2013
+	last packet:   Thu Feb  7 10:47:43.717970 2013
+	elapsed time:  0:00:01.625961
+	total packets: 1148
+	filename:      lengthFixed.pcap
+   be->bf:			      bf->be:
+     total packets:           389           total packets:           759      
+     ack pkts sent:           388           ack pkts sent:           759      
+     pure acks sent:          386           pure acks sent:            1      
+     sack pkts sent:            0           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         0           max sack blks/ack:         0      
+     unique bytes sent:       130           unique bytes sent:   1048897      
+     actual data pkts:          1           actual data pkts:        756      
+     actual data bytes:       130           actual data bytes:   1048897      
+     rexmt data pkts:           0           rexmt data pkts:           0      
+     rexmt data bytes:          0           rexmt data bytes:          0      
+     zwnd probe pkts:           0           zwnd probe pkts:           0      
+     zwnd probe bytes:          0           zwnd probe bytes:          0      
+     outoforder pkts:           0           outoforder pkts:           0      
+     pushed data pkts:          1           pushed data pkts:         16      
+     SYN/FIN pkts sent:       1/1           SYN/FIN pkts sent:       1/1      
+     req 1323 ws/ts:          Y/N           req 1323 ws/ts:          Y/N      
+     adv wind scale:            0           adv wind scale:            6      
+     req sack:                  Y           req sack:                  Y      
+     sacks sent:                0           sacks sent:                0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:          1388 bytes     mss requested:          1460 bytes
+     max segm size:           130 bytes     max segm size:          1388 bytes
+     min segm size:           130 bytes     min segm size:           957 bytes
+     avg segm size:           129 bytes     avg segm size:          1387 bytes
+     max win adv:           65535 bytes     max win adv:           15680 bytes
+     min win adv:           65535 bytes     min win adv:           15680 bytes
+     zero win adv:              0 times     zero win adv:              0 times
+     avg win adv:           65535 bytes     avg win adv:           15680 bytes
+     max owin:                131 bytes     max owin:              65237 bytes
+     min non-zero owin:         1 bytes     min non-zero owin:         1 bytes
+     avg owin:                  1 bytes     avg owin:              46478 bytes
+     wavg owin:                 2 bytes     wavg owin:             47378 bytes
+     initial window:          130 bytes     initial window:        13880 bytes
+     initial window:            1 pkts      initial window:           10 pkts 
+     ttl stream length:       130 bytes     ttl stream length:   1048897 bytes
+     missed data:               0 bytes     missed data:               0 bytes
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:        0.000 secs      data xmit time:        1.430 secs 
+     idletime max:           58.1 ms        idletime max:           72.0 ms   
+     throughput:               80 Bps       throughput:           645093 Bps  
+
+     RTT samples:               3           RTT samples:             385      
+     RTT min:                 0.2 ms        RTT min:                31.0 ms   
+     RTT max:                 0.2 ms        RTT max:                86.2 ms   
+     RTT avg:                 0.2 ms        RTT avg:                65.5 ms   
+     RTT stdev:               0.0 ms        RTT stdev:               8.7 ms   
+
+     RTT from 3WHS:           0.2 ms        RTT from 3WHS:          55.4 ms   
+
+     RTT full_sz smpls:         2           RTT full_sz smpls:         2      
+     RTT full_sz min:         0.2 ms        RTT full_sz min:        55.4 ms   
+     RTT full_sz max:         0.2 ms        RTT full_sz max:        57.8 ms   
+     RTT full_sz avg:         0.2 ms        RTT full_sz avg:        56.6 ms   
+     RTT full_sz stdev:       0.0 ms        RTT full_sz stdev:       0.0 ms   
+
+     post-loss acks:            0           post-loss acks:            0      
+     segs cum acked:            0           segs cum acked:          373      
+     duplicate acks:            0           duplicate acks:            2      
+     triple dupacks:            0           triple dupacks:            0      
+     max # retrans:             0           max # retrans:             0      
+     min retr time:           0.0 ms        min retr time:           0.0 ms   
+     max retr time:           0.0 ms        max retr time:           0.0 ms   
+     avg retr time:           0.0 ms        avg retr time:           0.0 ms   
+     sdv retr time:           0.0 ms        sdv retr time:           0.0 ms   
+================================
+TCP connection 30:
+	host bg:       192.11.68.196:38477
+	host bh:       10.168.207.106:80
+	complete conn: yes
+	first packet:  Thu Feb  7 10:47:44.378692 2013
+	last packet:   Thu Feb  7 10:47:45.983157 2013
+	elapsed time:  0:00:01.604465
+	total packets: 2211
+	filename:      lengthFixed.pcap
+   bg->bh:			      bh->bg:
+     total packets:           803           total packets:          1408      
+     ack pkts sent:           802           ack pkts sent:          1408      
+     pure acks sent:          800           pure acks sent:            0      
+     sack pkts sent:           52           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         1           max sack blks/ack:         0      
+     unique bytes sent:       130           unique bytes sent:   1934406      
+     actual data pkts:          1           actual data pkts:       1406      
+     actual data bytes:       130           actual data bytes:   1934406      
+     rexmt data pkts:           0           rexmt data pkts:           0      
+     rexmt data bytes:          0           rexmt data bytes:          0      
+     zwnd probe pkts:           0           zwnd probe pkts:           0      
+     zwnd probe bytes:          0           zwnd probe bytes:          0      
+     outoforder pkts:           0           outoforder pkts:           0      
+     pushed data pkts:          1           pushed data pkts:         29      
+     SYN/FIN pkts sent:       1/1           SYN/FIN pkts sent:       1/1      
+     req 1323 ws/ts:          Y/N           req 1323 ws/ts:          Y/N      
+     adv wind scale:            7           adv wind scale:            8      
+     req sack:                  Y           req sack:                  Y      
+     sacks sent:               52           sacks sent:                0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:          1388 bytes     mss requested:          1460 bytes
+     max segm size:           130 bytes     max segm size:          1388 bytes
+     min segm size:           130 bytes     min segm size:           300 bytes
+     avg segm size:           129 bytes     avg segm size:          1375 bytes
+     max win adv:          228864 bytes     max win adv:           66560 bytes
+     min win adv:            5888 bytes     min win adv:           66560 bytes
+     zero win adv:              0 times     zero win adv:              0 times
+     avg win adv:          112808 bytes     avg win adv:           66560 bytes
+     max owin:                131 bytes     max owin:             117193 bytes
+     min non-zero owin:         1 bytes     min non-zero owin:         1 bytes
+     avg owin:                  1 bytes     avg owin:              35846 bytes
+     wavg owin:                 2 bytes     wavg owin:             42548 bytes
+     initial window:          130 bytes     initial window:         2776 bytes
+     initial window:            1 pkts      initial window:            2 pkts 
+     ttl stream length:       130 bytes     ttl stream length:   2097402 bytes
+     missed data:               0 bytes     missed data:          162996 bytes
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:        0.000 secs      data xmit time:        1.387 secs 
+     idletime max:           93.6 ms        idletime max:          124.7 ms   
+     throughput:               81 Bps       throughput:          1205639 Bps  
+
+     RTT samples:               3           RTT samples:             694      
+     RTT min:                 0.2 ms        RTT min:                30.8 ms   
+     RTT max:                 1.0 ms        RTT max:                49.6 ms   
+     RTT avg:                 0.5 ms        RTT avg:                31.8 ms   
+     RTT stdev:               0.4 ms        RTT stdev:               1.7 ms   
+
+     RTT from 3WHS:           0.3 ms        RTT from 3WHS:          30.9 ms   
+
+     RTT full_sz smpls:         2           RTT full_sz smpls:         2      
+     RTT full_sz min:         0.2 ms        RTT full_sz min:        30.8 ms   
+     RTT full_sz max:         0.3 ms        RTT full_sz max:        30.9 ms   
+     RTT full_sz avg:         0.3 ms        RTT full_sz avg:        30.8 ms   
+     RTT full_sz stdev:       0.0 ms        RTT full_sz stdev:       0.0 ms   
+
+     post-loss acks:            0           post-loss acks:            0      
+     segs cum acked:            0           segs cum acked:          714      
+     duplicate acks:            0           duplicate acks:            0      
+     triple dupacks:            0           triple dupacks:            0      
+     max # retrans:             0           max # retrans:             0      
+     min retr time:           0.0 ms        min retr time:           0.0 ms   
+     max retr time:           0.0 ms        max retr time:           0.0 ms   
+     avg retr time:           0.0 ms        avg retr time:           0.0 ms   
+     sdv retr time:           0.0 ms        sdv retr time:           0.0 ms   
+================================
+TCP connection 31:
+	host bi:       192.11.68.196:38479
+	host bj:       10.168.207.107:80
+	complete conn: yes
+	first packet:  Thu Feb  7 10:47:46.698641 2013
+	last packet:   Thu Feb  7 10:47:49.232862 2013
+	elapsed time:  0:00:02.534221
+	total packets: 2313
+	filename:      lengthFixed.pcap
+   bi->bj:			      bj->bi:
+     total packets:           775           total packets:          1538      
+     ack pkts sent:           774           ack pkts sent:          1538      
+     pure acks sent:          772           pure acks sent:            0      
+     sack pkts sent:            0           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         0           max sack blks/ack:         0      
+     unique bytes sent:       130           unique bytes sent:   2097402      
+     actual data pkts:          1           actual data pkts:       1536      
+     actual data bytes:       130           actual data bytes:   2097402      
+     rexmt data pkts:           0           rexmt data pkts:           0      
+     rexmt data bytes:          0           rexmt data bytes:          0      
+     zwnd probe pkts:           0           zwnd probe pkts:           0      
+     zwnd probe bytes:          0           zwnd probe bytes:          0      
+     outoforder pkts:           0           outoforder pkts:           0      
+     pushed data pkts:          1           pushed data pkts:         33      
+     SYN/FIN pkts sent:       1/1           SYN/FIN pkts sent:       1/1      
+     req 1323 ws/ts:          Y/N           req 1323 ws/ts:          Y/N      
+     adv wind scale:            0           adv wind scale:            8      
+     req sack:                  Y           req sack:                  Y      
+     sacks sent:                0           sacks sent:                0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:          1388 bytes     mss requested:          1460 bytes
+     max segm size:           130 bytes     max segm size:          1388 bytes
+     min segm size:           130 bytes     min segm size:           250 bytes
+     avg segm size:           129 bytes     avg segm size:          1365 bytes
+     max win adv:           65535 bytes     max win adv:           66560 bytes
+     min win adv:           64985 bytes     min win adv:           66560 bytes
+     zero win adv:              0 times     zero win adv:              0 times
+     avg win adv:           65532 bytes     avg win adv:           66560 bytes
+     max owin:                131 bytes     max owin:              64449 bytes
+     min non-zero owin:         1 bytes     min non-zero owin:         1 bytes
+     avg owin:                  1 bytes     avg owin:              58026 bytes
+     wavg owin:                 1 bytes     wavg owin:             55177 bytes
+     initial window:          130 bytes     initial window:         2776 bytes
+     initial window:            1 pkts      initial window:            2 pkts 
+     ttl stream length:       130 bytes     ttl stream length:   2097402 bytes
+     missed data:               0 bytes     missed data:               0 bytes
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:        0.000 secs      data xmit time:        2.343 secs 
+     idletime max:           59.8 ms        idletime max:           69.9 ms   
+     throughput:               51 Bps       throughput:           827632 Bps  
+
+     RTT samples:               3           RTT samples:             771      
+     RTT min:                 0.2 ms        RTT min:                31.0 ms   
+     RTT max:                 0.9 ms        RTT max:                89.2 ms   
+     RTT avg:                 0.5 ms        RTT avg:                64.4 ms   
+     RTT stdev:               0.4 ms        RTT stdev:               6.8 ms   
+
+     RTT from 3WHS:           0.2 ms        RTT from 3WHS:          59.1 ms   
+
+     RTT full_sz smpls:         2           RTT full_sz smpls:         2      
+     RTT full_sz min:         0.2 ms        RTT full_sz min:        58.7 ms   
+     RTT full_sz max:         0.2 ms        RTT full_sz max:        59.1 ms   
+     RTT full_sz avg:         0.2 ms        RTT full_sz avg:        58.9 ms   
+     RTT full_sz stdev:       0.0 ms        RTT full_sz stdev:       0.0 ms   
+
+     post-loss acks:            0           post-loss acks:            0      
+     segs cum acked:            0           segs cum acked:          767      
+     duplicate acks:            0           duplicate acks:            2      
+     triple dupacks:            0           triple dupacks:            0      
+     max # retrans:             0           max # retrans:             0      
+     min retr time:           0.0 ms        min retr time:           0.0 ms   
+     max retr time:           0.0 ms        max retr time:           0.0 ms   
+     avg retr time:           0.0 ms        avg retr time:           0.0 ms   
+     sdv retr time:           0.0 ms        sdv retr time:           0.0 ms   
+================================
+TCP connection 32:
+	host bk:       192.11.68.196:38481
+	host bl:       10.168.207.108:80
+	complete conn: yes
+	first packet:  Thu Feb  7 10:47:49.903852 2013
+	last packet:   Thu Feb  7 10:47:51.689344 2013
+	elapsed time:  0:00:01.785492
+	total packets: 2276
+	filename:      lengthFixed.pcap
+   bk->bl:			      bl->bk:
+     total packets:           798           total packets:          1478      
+     ack pkts sent:           797           ack pkts sent:          1478      
+     pure acks sent:          795           pure acks sent:            1      
+     sack pkts sent:           35           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         4           max sack blks/ack:         0      
+     unique bytes sent:       130           unique bytes sent:   2026685      
+     actual data pkts:          1           actual data pkts:       1475      
+     actual data bytes:       130           actual data bytes:   2046117      
+     rexmt data pkts:           0           rexmt data pkts:          14      
+     rexmt data bytes:          0           rexmt data bytes:      19432      
+     zwnd probe pkts:           0           zwnd probe pkts:           0      
+     zwnd probe bytes:          0           zwnd probe bytes:          0      
+     outoforder pkts:           0           outoforder pkts:           6      
+     pushed data pkts:          1           pushed data pkts:         12      
+     SYN/FIN pkts sent:       1/1           SYN/FIN pkts sent:       1/1      
+     req 1323 ws/ts:          Y/N           req 1323 ws/ts:          Y/N      
+     adv wind scale:            7           adv wind scale:            6      
+     req sack:                  Y           req sack:                  Y      
+     sacks sent:               35           sacks sent:                0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:          1388 bytes     mss requested:          1460 bytes
+     max segm size:           130 bytes     max segm size:          1388 bytes
+     min segm size:           130 bytes     min segm size:           205 bytes
+     avg segm size:           129 bytes     avg segm size:          1387 bytes
+     max win adv:          200832 bytes     max win adv:           15680 bytes
+     min win adv:            8320 bytes     min win adv:           15680 bytes
+     zero win adv:              0 times     zero win adv:              0 times
+     avg win adv:          105584 bytes     avg win adv:           15680 bytes
+     max owin:                131 bytes     max owin:             144353 bytes
+     min non-zero owin:         1 bytes     min non-zero owin:         1 bytes
+     avg owin:                  1 bytes     avg owin:              38198 bytes
+     wavg owin:                 2 bytes     wavg owin:             41317 bytes
+     initial window:          130 bytes     initial window:        13880 bytes
+     initial window:            1 pkts      initial window:           10 pkts 
+     ttl stream length:       130 bytes     ttl stream length:   2097473 bytes
+     missed data:               0 bytes     missed data:           70788 bytes
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:        0.000 secs      data xmit time:        1.624 secs 
+     idletime max:           36.1 ms        idletime max:           67.2 ms   
+     throughput:               73 Bps       throughput:          1135085 Bps  
+
+     RTT samples:               3           RTT samples:             734      
+     RTT min:                 0.2 ms        RTT min:                30.8 ms   
+     RTT max:                 0.4 ms        RTT max:                49.4 ms   
+     RTT avg:                 0.2 ms        RTT avg:                31.5 ms   
+     RTT stdev:               0.1 ms        RTT stdev:               1.6 ms   
+
+     RTT from 3WHS:           0.2 ms        RTT from 3WHS:          30.9 ms   
+
+     RTT full_sz smpls:         2           RTT full_sz smpls:         2      
+     RTT full_sz min:         0.2 ms        RTT full_sz min:        30.9 ms   
+     RTT full_sz max:         0.4 ms        RTT full_sz max:        30.9 ms   
+     RTT full_sz avg:         0.3 ms        RTT full_sz avg:        30.9 ms   
+     RTT full_sz stdev:       0.0 ms        RTT full_sz stdev:       0.0 ms   
+
+     post-loss acks:            0           post-loss acks:           11      
+	  For the following 5 RTT statistics, only ACKs for
+	  multiply-transmitted segments (ambiguous ACKs) were
+	  considered.  Times are taken from the last instance
+	  of a segment.
+     ambiguous acks:            0           ambiguous acks:            3      
+     RTT min (last):          0.0 ms        RTT min (last):         30.9 ms   
+     RTT max (last):          0.0 ms        RTT max (last):         31.2 ms   
+     RTT avg (last):          0.0 ms        RTT avg (last):         31.0 ms   
+     RTT sdv (last):          0.0 ms        RTT sdv (last):          0.1 ms   
+     segs cum acked:            0           segs cum acked:          715      
+     duplicate acks:            0           duplicate acks:           16      
+     triple dupacks:            0           triple dupacks:            1      
+     max # retrans:             0           max # retrans:             1      
+     min retr time:           0.0 ms        min retr time:          33.3 ms   
+     max retr time:           0.0 ms        max retr time:          33.6 ms   
+     avg retr time:           0.0 ms        avg retr time:          33.4 ms   
+     sdv retr time:           0.0 ms        sdv retr time:           0.1 ms   
+================================
+TCP connection 33:
+	host bm:       192.11.68.196:38499
+	host bn:       10.168.207.109:80
+	complete conn: yes
+	first packet:  Thu Feb  7 10:47:52.428791 2013
+	last packet:   Thu Feb  7 10:47:55.327878 2013
+	elapsed time:  0:00:02.899087
+	total packets: 2282
+	filename:      lengthFixed.pcap
+   bm->bn:			      bn->bm:
+     total packets:           767           total packets:          1515      
+     ack pkts sent:           766           ack pkts sent:          1515      
+     pure acks sent:          764           pure acks sent:            1      
+     sack pkts sent:            0           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         0           max sack blks/ack:         0      
+     unique bytes sent:       130           unique bytes sent:   2097473      
+     actual data pkts:          1           actual data pkts:       1512      
+     actual data bytes:       130           actual data bytes:   2097473      
+     rexmt data pkts:           0           rexmt data pkts:           0      
+     rexmt data bytes:          0           rexmt data bytes:          0      
+     zwnd probe pkts:           0           zwnd probe pkts:           0      
+     zwnd probe bytes:          0           zwnd probe bytes:          0      
+     outoforder pkts:           0           outoforder pkts:           0      
+     pushed data pkts:          1           pushed data pkts:         31      
+     SYN/FIN pkts sent:       1/1           SYN/FIN pkts sent:       1/1      
+     req 1323 ws/ts:          Y/N           req 1323 ws/ts:          Y/N      
+     adv wind scale:            0           adv wind scale:            6      
+     req sack:                  Y           req sack:                  Y      
+     sacks sent:                0           sacks sent:                0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:          1388 bytes     mss requested:          1460 bytes
+     max segm size:           130 bytes     max segm size:          1388 bytes
+     min segm size:           130 bytes     min segm size:           205 bytes
+     avg segm size:           129 bytes     avg segm size:          1387 bytes
+     max win adv:           65535 bytes     max win adv:           15680 bytes
+     min win adv:           65535 bytes     min win adv:           15680 bytes
+     zero win adv:              0 times     zero win adv:              0 times
+     avg win adv:           65535 bytes     avg win adv:           15680 bytes
+     max owin:                131 bytes     max owin:              65237 bytes
+     min non-zero owin:         1 bytes     min non-zero owin:         1 bytes
+     avg owin:                  1 bytes     avg owin:              48780 bytes
+     wavg owin:                 1 bytes     wavg owin:             53570 bytes
+     initial window:          130 bytes     initial window:        13880 bytes
+     initial window:            1 pkts      initial window:           10 pkts 
+     ttl stream length:       130 bytes     ttl stream length:   2097473 bytes
+     missed data:               0 bytes     missed data:               0 bytes
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:        0.000 secs      data xmit time:        2.689 secs 
+     idletime max:           70.8 ms        idletime max:           75.4 ms   
+     throughput:               45 Bps       throughput:           723494 Bps  
+
+     RTT samples:               3           RTT samples:             763      
+     RTT min:                 0.2 ms        RTT min:                31.0 ms   
+     RTT max:                 0.4 ms        RTT max:                93.5 ms   
+     RTT avg:                 0.2 ms        RTT avg:                68.3 ms   
+     RTT stdev:               0.1 ms        RTT stdev:               8.2 ms   
+
+     RTT from 3WHS:           0.2 ms        RTT from 3WHS:          59.0 ms   
+
+     RTT full_sz smpls:         2           RTT full_sz smpls:         2      
+     RTT full_sz min:         0.2 ms        RTT full_sz min:        59.0 ms   
+     RTT full_sz max:         0.4 ms        RTT full_sz max:        60.6 ms   
+     RTT full_sz avg:         0.3 ms        RTT full_sz avg:        59.8 ms   
+     RTT full_sz stdev:       0.0 ms        RTT full_sz stdev:       0.0 ms   
+
+     post-loss acks:            0           post-loss acks:            0      
+     segs cum acked:            0           segs cum acked:          751      
+     duplicate acks:            0           duplicate acks:            2      
+     triple dupacks:            0           triple dupacks:            0      
+     max # retrans:             0           max # retrans:             0      
+     min retr time:           0.0 ms        min retr time:           0.0 ms   
+     max retr time:           0.0 ms        max retr time:           0.0 ms   
+     avg retr time:           0.0 ms        avg retr time:           0.0 ms   
+     sdv retr time:           0.0 ms        sdv retr time:           0.0 ms   
+================================
+TCP connection 34:
+	host bo:       192.11.68.200:18341
+	host bp:       10.168.207.109:80
+	complete conn: yes
+	first packet:  Thu Feb  7 10:49:49.919063 2013
+	last packet:   Thu Feb  7 10:49:51.888960 2013
+	elapsed time:  0:00:01.969897
+	total packets: 2163
+	filename:      lengthFixed.pcap
+   bo->bp:			      bp->bo:
+     total packets:           785           total packets:          1378      
+     ack pkts sent:           784           ack pkts sent:          1378      
+     pure acks sent:          782           pure acks sent:            0      
+     sack pkts sent:           35           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         4           max sack blks/ack:         0      
+     unique bytes sent:       130           unique bytes sent:   1894831      
+     actual data pkts:          1           actual data pkts:       1377      
+     actual data bytes:       130           actual data bytes:   1907329      
+     rexmt data pkts:           0           rexmt data pkts:          10      
+     rexmt data bytes:          0           rexmt data bytes:      12498      
+     zwnd probe pkts:           0           zwnd probe pkts:           0      
+     zwnd probe bytes:          0           zwnd probe bytes:          0      
+     outoforder pkts:           0           outoforder pkts:           0      
+     pushed data pkts:          1           pushed data pkts:          8      
+     SYN/FIN pkts sent:       1/1           SYN/FIN pkts sent:       1/1      
+     req 1323 ws/ts:          Y/N           req 1323 ws/ts:          Y/N      
+     adv wind scale:            7           adv wind scale:            6      
+     req sack:                  Y           req sack:                  Y      
+     sacks sent:               35           sacks sent:                0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:          1388 bytes     mss requested:          1460 bytes
+     max segm size:           130 bytes     max segm size:          1388 bytes
+     min segm size:           130 bytes     min segm size:             6 bytes
+     avg segm size:           129 bytes     avg segm size:          1385 bytes
+     max win adv:          176896 bytes     max win adv:           15680 bytes
+     min win adv:            3200 bytes     min win adv:           15680 bytes
+     zero win adv:              3 times     zero win adv:              0 times
+     avg win adv:           87656 bytes     avg win adv:           15680 bytes
+     max owin:                131 bytes     max owin:             131861 bytes
+     min non-zero owin:         1 bytes     min non-zero owin:         7 bytes
+     avg owin:                  1 bytes     avg owin:              30832 bytes
+     wavg owin:                 2 bytes     wavg owin:             39346 bytes
+     initial window:          130 bytes     initial window:        12498 bytes
+     initial window:            1 pkts      initial window:           10 pkts 
+     ttl stream length:       130 bytes     ttl stream length:   2097479 bytes
+     missed data:               0 bytes     missed data:          202648 bytes
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:        0.000 secs      data xmit time:        1.867 secs 
+     idletime max:           40.9 ms        idletime max:           73.2 ms   
+     throughput:               66 Bps       throughput:           961893 Bps  
+
+     RTT samples:               3           RTT samples:             676      
+     RTT min:                 0.2 ms        RTT min:                30.8 ms   
+     RTT max:                 0.2 ms        RTT max:                52.3 ms   
+     RTT avg:                 0.2 ms        RTT avg:                31.8 ms   
+     RTT stdev:               0.0 ms        RTT stdev:               1.8 ms   
+
+     RTT from 3WHS:           0.2 ms        RTT from 3WHS:          30.9 ms   
+
+     RTT full_sz smpls:         2           RTT full_sz smpls:         1      
+     RTT full_sz min:         0.2 ms        RTT full_sz min:        30.9 ms   
+     RTT full_sz max:         0.2 ms        RTT full_sz max:        30.9 ms   
+     RTT full_sz avg:         0.2 ms        RTT full_sz avg:        30.9 ms   
+     RTT full_sz stdev:       0.0 ms        RTT full_sz stdev:       0.0 ms   
+
+     post-loss acks:            0           post-loss acks:            6      
+	  For the following 5 RTT statistics, only ACKs for
+	  multiply-transmitted segments (ambiguous ACKs) were
+	  considered.  Times are taken from the last instance
+	  of a segment.
+     ambiguous acks:            0           ambiguous acks:            3      
+     RTT min (last):          0.0 ms        RTT min (last):         31.0 ms   
+     RTT max (last):          0.0 ms        RTT max (last):         31.4 ms   
+     RTT avg (last):          0.0 ms        RTT avg (last):         31.1 ms   
+     RTT sdv (last):          0.0 ms        RTT sdv (last):          0.2 ms   
+     segs cum acked:            0           segs cum acked:          684      
+     duplicate acks:            0           duplicate acks:           28      
+     triple dupacks:            0           triple dupacks:            1      
+     max # retrans:             0           max # retrans:             1      
+     min retr time:           0.0 ms        min retr time:           0.6 ms   
+     max retr time:           0.0 ms        max retr time:          55.2 ms   
+     avg retr time:           0.0 ms        avg retr time:          40.9 ms   
+     sdv retr time:           0.0 ms        sdv retr time:          18.0 ms   
+================================
+TCP connection 35:
+	host bq:       192.11.68.196:28341
+	host br:       11.168.207.109:80
+	complete conn: yes
+	first packet:  Thu Feb  7 10:49:54.919063 2013
+	last packet:   Thu Feb  7 10:49:56.888960 2013
+	elapsed time:  0:00:01.969897
+	total packets: 2163
+	filename:      lengthFixed.pcap
+   bq->br:			      br->bq:
+     total packets:           785           total packets:          1378      
+     ack pkts sent:           784           ack pkts sent:          1378      
+     pure acks sent:          782           pure acks sent:            0      
+     sack pkts sent:           35           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         4           max sack blks/ack:         0      
+     unique bytes sent:       130           unique bytes sent:   1894831      
+     actual data pkts:          1           actual data pkts:       1377      
+     actual data bytes:       130           actual data bytes:   1907329      
+     rexmt data pkts:           0           rexmt data pkts:          10      
+     rexmt data bytes:          0           rexmt data bytes:      12498      
+     zwnd probe pkts:           0           zwnd probe pkts:           0      
+     zwnd probe bytes:          0           zwnd probe bytes:          0      
+     outoforder pkts:           0           outoforder pkts:           0      
+     pushed data pkts:          1           pushed data pkts:          8      
+     SYN/FIN pkts sent:       1/1           SYN/FIN pkts sent:       1/1      
+     req 1323 ws/ts:          Y/N           req 1323 ws/ts:          Y/N      
+     adv wind scale:            7           adv wind scale:            6      
+     req sack:                  Y           req sack:                  Y      
+     sacks sent:               35           sacks sent:                0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:          1388 bytes     mss requested:          1460 bytes
+     max segm size:           130 bytes     max segm size:          1388 bytes
+     min segm size:           130 bytes     min segm size:             6 bytes
+     avg segm size:           129 bytes     avg segm size:          1385 bytes
+     max win adv:          176896 bytes     max win adv:           15680 bytes
+     min win adv:            3200 bytes     min win adv:           15680 bytes
+     zero win adv:              3 times     zero win adv:              0 times
+     avg win adv:           87656 bytes     avg win adv:           15680 bytes
+     max owin:                131 bytes     max owin:             131861 bytes
+     min non-zero owin:         1 bytes     min non-zero owin:         7 bytes
+     avg owin:                  1 bytes     avg owin:              30832 bytes
+     wavg owin:                 2 bytes     wavg owin:             39346 bytes
+     initial window:          130 bytes     initial window:        12498 bytes
+     initial window:            1 pkts      initial window:           10 pkts 
+     ttl stream length:       130 bytes     ttl stream length:   2097479 bytes
+     missed data:               0 bytes     missed data:          202648 bytes
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:        0.000 secs      data xmit time:        1.867 secs 
+     idletime max:           40.9 ms        idletime max:           73.2 ms   
+     throughput:               66 Bps       throughput:           961893 Bps  
+
+     RTT samples:               3           RTT samples:             676      
+     RTT min:                 0.2 ms        RTT min:                30.8 ms   
+     RTT max:                 0.2 ms        RTT max:                52.3 ms   
+     RTT avg:                 0.2 ms        RTT avg:                31.8 ms   
+     RTT stdev:               0.0 ms        RTT stdev:               1.8 ms   
+
+     RTT from 3WHS:           0.2 ms        RTT from 3WHS:          30.9 ms   
+
+     RTT full_sz smpls:         2           RTT full_sz smpls:         1      
+     RTT full_sz min:         0.2 ms        RTT full_sz min:        30.9 ms   
+     RTT full_sz max:         0.2 ms        RTT full_sz max:        30.9 ms   
+     RTT full_sz avg:         0.2 ms        RTT full_sz avg:        30.9 ms   
+     RTT full_sz stdev:       0.0 ms        RTT full_sz stdev:       0.0 ms   
+
+     post-loss acks:            0           post-loss acks:            6      
+	  For the following 5 RTT statistics, only ACKs for
+	  multiply-transmitted segments (ambiguous ACKs) were
+	  considered.  Times are taken from the last instance
+	  of a segment.
+     ambiguous acks:            0           ambiguous acks:            3      
+     RTT min (last):          0.0 ms        RTT min (last):         31.0 ms   
+     RTT max (last):          0.0 ms        RTT max (last):         31.4 ms   
+     RTT avg (last):          0.0 ms        RTT avg (last):         31.1 ms   
+     RTT sdv (last):          0.0 ms        RTT sdv (last):          0.2 ms   
+     segs cum acked:            0           segs cum acked:          684      
+     duplicate acks:            0           duplicate acks:           28      
+     triple dupacks:            0           triple dupacks:            1      
+     max # retrans:             0           max # retrans:             1      
+     min retr time:           0.0 ms        min retr time:           0.6 ms   
+     max retr time:           0.0 ms        max retr time:          55.2 ms   
+     avg retr time:           0.0 ms        avg retr time:          40.9 ms   
+     sdv retr time:           0.0 ms        sdv retr time:          18.0 ms   
