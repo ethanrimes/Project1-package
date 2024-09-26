@@ -443,6 +443,7 @@ void tcp_analysis(char *in_filename, char *out_filename)
     char* tcp_client;
 
     struct tcp_session_data* sessions;
+    int* finished_sessions;
     int num_sessions = 0;
 
     // valid sender IPs
@@ -616,8 +617,10 @@ void tcp_analysis(char *in_filename, char *out_filename)
                     session.session_count = num_sessions;
                     if (num_sessions == 1) {
                         sessions = (struct tcp_session_data*) malloc(num_sessions * sizeof(struct tcp_session_data));
+                        finished_sessions = (int*) malloc(sizeof(int));
                     } else {
                         sessions = (struct tcp_session_data*) realloc(sessions, num_sessions * sizeof(struct tcp_session_data));
+                        finished_sessions = (int*) realloc(finished_sessions, num_sessions * sizeof(int));
                     }
                     target_session = num_sessions-1;
                     sessions[target_session] = session;
@@ -645,8 +648,7 @@ void tcp_analysis(char *in_filename, char *out_filename)
                     // On FIN flag, end session and print the cached data
                     if (tcpheader.flags & TCP_FLAG_FIN) {
                         sessions[target_session].session_end_time = pkt_header.time_sec + pkt_header.time_usec / 1000000.0;
-                        print_tcp_session_data(fd_out, &sessions[target_session]);
-                        reset_tcp_session_data(&sessions[target_session]); // Reset for the next session
+                        finished_sessions[target_session] = 1;
                     }
 
                 }
@@ -654,7 +656,9 @@ void tcp_analysis(char *in_filename, char *out_filename)
                 next_header_protocol = 0;
             } 
 
-        } 
+        }
+
+
 
         int bytes_left = caplen - pointer_advancement;
         if (bytes_left > 0) {
@@ -667,6 +671,12 @@ void tcp_analysis(char *in_filename, char *out_filename)
 
 } // end of WHILE loop
 
+for (int i = 0; i < num_sessions; i++) {
+    if (finished_sessions[i]) {
+        print_tcp_session_data(fd_out, &sessions[i]);
+        reset_tcp_session_data(&sessions[i]);
+    }
+}
 // Close files
 fclose(fd_in);
 fclose(fd_out);
